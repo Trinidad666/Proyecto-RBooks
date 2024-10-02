@@ -1,17 +1,17 @@
 ## Quienes Somos:
-Somos
+Somos 
 
 
-En que consiste nuestra app
+## En que consiste nuestra app
 
 
-Nuestro logo
+## Nuestro logo
 
 
-Nuestro Mockup
+## Nuestro Mockup
 
 
-Nuestra gamma de colores
+## Nuestra gamma de colores
 
 
-Nuestro esquema de nuestra pagina web
+## Nuestro esquema de nuestra pagina web
