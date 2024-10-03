@@ -8,6 +8,7 @@ La Web consiste en proporcionar a los clientes una forma más comoda de leer lib
 
 ## Nuestro logo
 Hemos escogido este logo porque son las iniciales de nuestra empresa "RBooks" y escogimos el color naranja porque se asocia con la energía, la creatividad y el entusiasmo.
+
 ![logo](https://github.com/user-attachments/assets/f5eef2c6-5696-4f00-be2d-d52c9c57c741)
 
 
