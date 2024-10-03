@@ -15,6 +15,14 @@ Hemos escogido este logo porque son las iniciales de nuestra empresa "RBooks" y 
 
 
 ## Nuestra gamma de colores
+Blanco:
+
+Naranja
+El color naranja se asocia con la energía, la creatividad y el entusiasmo
+Azul oscuro
+
+Negro
+
 ![RBOOKS_Panel de colores](https://github.com/user-attachments/assets/31e1feab-92b2-4ff0-867c-8120417f4c86)
 
 
