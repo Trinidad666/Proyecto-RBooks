@@ -13,7 +13,19 @@ Hemos escogido este logo porque son las iniciales de nuestra empresa "RBooks" y 
 
 
 ## Nuestro Mockup
+Como podreis ver en nuestro mockup se muestra las pestañas de nuestros productos como libros, comics y audio libros, también tenemos la sección de estantería donde podremos ver todos los generos de libros y comics que hay. También tenemos otra pestaña donde puedes añadir tus libros favoritos y subir libros o comics, pero para poder subir o añadir libros en tu biblioteca tiene que registrarte.
+Aquí os mostraremos parte del mockup:
 
+### Libros
+![image](https://github.com/user-attachments/assets/5843927e-bd5c-4371-bea1-a17e168c8c1a)
+
+### Estantería
+![image](https://github.com/user-attachments/assets/98c872c3-0395-461c-a091-3221a877ee6e)
+
+### Mi Biblioteca
+![image](https://github.com/user-attachments/assets/dfec9607-3572-4459-9888-25231dcfbb84)
+
+Para poder ver más del mockup tenemos el archivo subido.
 
 ## Nuestra gamma de colores
 ### Blanco
