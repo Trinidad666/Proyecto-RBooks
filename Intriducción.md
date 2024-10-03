@@ -15,14 +15,17 @@ Hemos escogido este logo porque son las iniciales de nuestra empresa "RBooks" y 
 
 
 ## Nuestra gamma de colores
-Blanco:
+### Blanco
+Hemos usado el color blanco porque es agradable y da paz y tranquilidad al usuario. 
 
-Naranja
-El color naranja se asocia con la energía, la creatividad y el entusiasmo
-Azul oscuro
+### Naranja
+Hemos elegido el color naranja porque se asocia con la energía, la creatividad y el entusiasmo.
 
-Negro
+### Azul oscuro
+Hemos elegido el color azul oscura porque simboliza la seriedad por los productos que vendamos como biografias sobre etapas belicas, dramas, etc.
 
+### Negro
+Hemos utilizado el color negro por su elegancia y sobre todo porque simboliza el misterio para nuestros productos como los libros de H. P. Lovecraft.
 ![RBOOKS_Panel de colores](https://github.com/user-attachments/assets/31e1feab-92b2-4ff0-867c-8120417f4c86)
 
 
