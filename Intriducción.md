@@ -9,6 +9,9 @@ Consiste en proporcionar a la gente una forma más comoda de leer o encontrar li
 ## Nuestro logo
 Hemos escogido este logo porque son las iniciales de nuestra empresa "RBooks" y hemos escogido el color naranja porque da a la gente confianza y por el exito que nos dara.
 
+![Tecnologia](https://github.com/user-attachments/assets/c0ad1afa-c283-4864-9a8f-c9ec2767b1db)
+
+
 ## Nuestro Mockup
 
 
