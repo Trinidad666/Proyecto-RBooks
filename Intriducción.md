@@ -43,3 +43,4 @@ Hemos utilizado el color negro por su elegancia y sobre todo porque simboliza el
 
 
 ## Nuestro esquema de nuestra pagina web
+Como podemos ver nuestro esquema es sencillo y de fácil comprension.
