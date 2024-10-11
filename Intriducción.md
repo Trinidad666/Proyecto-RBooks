@@ -47,10 +47,31 @@ Aquí os mostraremos como nuestra pagina web esta conectado con el resto de pagi
 
 ## Estas son nuestrar maquina virtuales que tenmos de momento
 
+Aquí os explicaremos los pasos que hemos hecho:
+Vamos a proxmox y nos dirigimos al nodo de nuestro servidor llamado rbooks. Creamos la interfaz de red y añadimo la ip 100.77.20.253/24 usando un Linux Bridge.
+
+
 ### Router
+En netplan creamo la red interior y la exterior.
+![image](https://github.com/user-attachments/assets/2a46b4aa-0c67-4d3b-b303-56060908021c)
 
 
 ### Cliente
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
