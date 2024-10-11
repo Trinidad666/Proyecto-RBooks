@@ -45,20 +45,31 @@ Hemos utilizado el color negro por su elegancia y sobre todo porque simboliza el
 ## Nuestro esquema de nuestra pagina web
 Aquí os mostraremos como nuestra pagina web esta conectado con el resto de paginas donde tenemos nuestros productos, la biblioteca, el inicio y registro de sesion.
 
+
+
+
+
+
+
+
+
 ## Estas son nuestrar maquina virtuales que tenmos de momento
 
 Aquí os explicaremos los pasos que hemos hecho:
-Vamos a proxmox y nos dirigimos al nodo de nuestro servidor llamado rbooks. Creamos la interfaz de red y añadimo la ip 100.77.20.253/24 usando un Linux Bridge.
+Vamos a proxmox y nos dirigimos al nodo de nuestro servidor llamado rbooks. Creamos la interfaz de red y añadimo la ip 10.20.40.253/24 usando un Linux Bridge y el nombre es vmbr1.
 
 
 ### Router
+En el HW del Router le ponemos el dispositivo de red que creamos el vmbr1
 En netplan creamo la red interna y externa.
 
 ![image](https://github.com/user-attachments/assets/2a46b4aa-0c67-4d3b-b303-56060908021c)
 
-netplan apply
+Y le hacemos un "netplan apply" para guarda los cambios que hicimos.
 
 Luego añadimos la dirección nano /etc/sysctl.conf y Quitamos el "#" en la linea donde se encuentra "net.ipv4.ip_forward=1".
+Y le ponemos los cabios con el "sysctl -p"
+
 
 Despues agregamos sudo apt install iptables.
 
@@ -73,6 +84,7 @@ Hacemos esta comprobacion:
 
 ![image](https://github.com/user-attachments/assets/f4408498-fd52-4f9d-905d-a825dc4a0488)
 
+Luego le hacemso un "sudo iptables-save" y luego le instalamos "sudo apt install iptables-persistent -y"
 
 
 ### Cliente
