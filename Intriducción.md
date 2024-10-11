@@ -56,6 +56,7 @@ En netplan creamo la red interna y externa.
 
 ![image](https://github.com/user-attachments/assets/2a46b4aa-0c67-4d3b-b303-56060908021c)
 
+netplan apply
 
 Luego añadimos la dirección nano /etc/sysctl.conf y Quitamos el "#" en la linea donde se encuentra "net.ipv4.ip_forward=1".
 
