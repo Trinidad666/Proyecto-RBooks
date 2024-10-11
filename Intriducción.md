@@ -52,12 +52,38 @@ Vamos a proxmox y nos dirigimos al nodo de nuestro servidor llamado rbooks. Crea
 
 
 ### Router
-En netplan creamo la red interior y la exterior.
+En netplan creamo la red interna y externa.
 
 ![image](https://github.com/user-attachments/assets/2a46b4aa-0c67-4d3b-b303-56060908021c)
 
 
+Luego añadimos la dirección nano /etc/sysctl.conf y Quitamos el "#" en la linea donde se encuentra "net.ipv4.ip_forward=1".
+
+Despues agregamos sudo apt install iptables.
+
+Cuando termine podemos comprobar que no tenemos ninguna regla habilitada, por supuesto:
+iptables -L
+iptables -t nat -L
+
+Ahora configuramos una regla de iptables como se muestra a continuación. 
+iptables -t nat -A POSTROUTING -o ens18 -j MASQUERADE
+
+Hacemos esta comprobacion:
+
+![image](https://github.com/user-attachments/assets/f4408498-fd52-4f9d-905d-a825dc4a0488)
+
+
+
 ### Cliente
+
+Añadimos ip cliente:
+
+![1](https://github.com/user-attachments/assets/85b903dd-e965-4ffd-8bc8-55286426e983)
+
+Hacemos ping en cuanlquier dirección ip.
+
+
+
 
 
 
