@@ -88,6 +88,7 @@ Luego le hacemso un "sudo iptables-save" y luego le instalamos "sudo apt install
 
 
 ### Cliente
+Le cambiamos el dispositivo de red del vmbr0 a vmbr1
 
 Añadimos ip cliente:
 
