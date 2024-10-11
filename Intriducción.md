@@ -44,3 +44,16 @@ Hemos utilizado el color negro por su elegancia y sobre todo porque simboliza el
 
 ## Nuestro esquema de nuestra pagina web
 Aquí os mostraremos como nuestra pagina web esta conectado con el resto de paginas donde tenemos nuestros productos, la biblioteca, el inicio y registro de sesion.
+
+## Estas son nuestrar maquina virtuales que tenmos de momento
+
+### Router
+
+
+### Cliente
+
+
+
+
+
+
