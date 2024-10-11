@@ -53,6 +53,7 @@ Vamos a proxmox y nos dirigimos al nodo de nuestro servidor llamado rbooks. Crea
 
 ### Router
 En netplan creamo la red interior y la exterior.
+
 ![image](https://github.com/user-attachments/assets/2a46b4aa-0c67-4d3b-b303-56060908021c)
 
 
