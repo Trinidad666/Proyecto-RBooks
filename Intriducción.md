@@ -1,9 +1,7 @@
-## Quienes Somos
+## Quienes Somos y En que consiste nuestra app
 Somos una empresa de dos personas que hemos decidido crear una aplicación para el entretenimiento y conocimientode los clintes.
 
-
-## En que consiste nuestra app
-La Web consiste en proporcionar a los clientes una forma más comoda de leer libros o comics y poder encontrar los tipos de lectura que quieren los clientes, tambien puedan encontrar libros o comic que no se pueden encontrar en ninguna libreria y puedan publicar sus lecturas. 
+La Web consiste en proporcionar a los clientes una forma más cómoda de leer libros o cómics y poder encontrar los tipos de lectura que quieren los clientes, también que puedan encontrar libros o cómic que no se pueden encontrar en ninguna librería y puedan publicar sus lecturas. 
 
 
 ## Nuestro logo
@@ -12,7 +10,7 @@ Hemos escogido este logo porque son las iniciales de nuestra empresa "RBooks" y 
 ![logo](https://github.com/user-attachments/assets/f5eef2c6-5696-4f00-be2d-d52c9c57c741)
 
 
-## Nuestro Mockup
+## Diseño de nuestra aplicación
 Como podreis ver en nuestro mockup se muestra las pestañas de nuestros productos como libros, comics y audio libros, también tenemos la sección de estantería donde podremos ver todos los generos de libros y comics que hay. También tenemos otra pestaña donde puedes añadir tus libros favoritos y subir libros o comics, pero para poder subir o añadir libros en tu biblioteca tiene que registrarte.
 Aquí os mostraremos parte del mockup:
 
