@@ -1,6 +1,8 @@
-## Quienes Somos y En que consiste nuestra app
+## Introducción
+Quienes Somos:
 Somos una empresa de dos personas que hemos decidido crear una aplicación para el entretenimiento y conocimientode los clintes.
 
+En que consiste nuestra app:
 La Web consiste en proporcionar a los clientes una forma más cómoda de leer libros o cómics y poder encontrar los tipos de lectura que quieren los clientes, también que puedan encontrar libros o cómic que no se pueden encontrar en ninguna librería y puedan publicar sus lecturas. 
 
 
@@ -43,15 +45,10 @@ Hemos utilizado el color negro por su elegancia y sobre todo porque simboliza el
 ## Nuestro esquema de nuestra pagina web
 Aquí os mostraremos como nuestra pagina web esta conectado con el resto de paginas donde tenemos nuestros productos, la biblioteca, el inicio y registro de sesion.
 
+### Hardware y Sistem Operativo
+Utilizamos de hardware 2GB de memoria, 1 procesador, disco duro de 14GB y de nuestro sistema operativo hemos utilizado un Ubuntu live Server 22.04.2.
 
-
-
-
-
-
-
-
-## Estas son nuestrar maquina virtuales que tenmos de momento
+### Estas son nuestrar maquina virtuales que tenmos de momento
 
 Aquí os explicaremos los pasos que hemos hecho:
 Vamos a proxmox y nos dirigimos al nodo de nuestro servidor llamado rbooks. Creamos la interfaz de red y añadimo la ip 10.20.40.253/24 usando un Linux Bridge y el nombre es vmbr1.
