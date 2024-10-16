@@ -6,12 +6,6 @@ En que consiste nuestra app:
 La Web consiste en proporcionar a los clientes una forma más cómoda de leer libros o cómics y poder encontrar los tipos de lectura que quieren los clientes, también que puedan encontrar libros o cómic que no se pueden encontrar en ninguna librería y puedan publicar sus lecturas. 
 
 
-## Nuestro logo
-Hemos escogido este logo porque son las iniciales de nuestra empresa "RBooks" y escogimos el color naranja porque se asocia con la energía, la creatividad y el entusiasmo.
-
-![logo](https://github.com/user-attachments/assets/f5eef2c6-5696-4f00-be2d-d52c9c57c741)
-
-
 ## Diseño de nuestra aplicación
 Como podreis ver en nuestro mockup se muestra las pestañas de nuestros productos como libros, comics y audio libros, también tenemos la sección de estantería donde podremos ver todos los generos de libros y comics que hay. También tenemos otra pestaña donde puedes añadir tus libros favoritos y subir libros o comics, pero para poder subir o añadir libros en tu biblioteca tiene que registrarte.
 Aquí os mostraremos parte del mockup:
@@ -27,7 +21,7 @@ Aquí os mostraremos parte del mockup:
 
 Para poder ver más del mockup tenemos el archivo subido.
 
-## Nuestra gamma de colores
+## Nuestra gamma de colores y Logo
 ### Blanco
 Hemos usado el color blanco porque es agradable y da paz y tranquilidad al usuario. 
 
@@ -40,6 +34,13 @@ Hemos elegido el color azul oscura porque simboliza la seriedad por los producto
 ### Negro
 Hemos utilizado el color negro por su elegancia y sobre todo porque simboliza el misterio para nuestros productos como los libros de H. P. Lovecraft.
 ![RBOOKS_Panel de colores](https://github.com/user-attachments/assets/31e1feab-92b2-4ff0-867c-8120417f4c86)
+
+
+### Nuestro logo
+Hemos escogido este logo porque son las iniciales de nuestra empresa "RBooks" y escogimos el color naranja porque se asocia con la energía, la creatividad y el entusiasmo.
+
+![logo](https://github.com/user-attachments/assets/f5eef2c6-5696-4f00-be2d-d52c9c57c741)
+
 
 
 ## Nuestro esquema de nuestra pagina web
