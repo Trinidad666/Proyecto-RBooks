@@ -10,7 +10,19 @@ La Web consiste en proporcionar a los clientes una forma más cómoda de leer li
 Como podreis ver en nuestro mockup se muestra las pestañas de nuestros productos como libros, comics y audio libros, también tenemos la sección de estantería donde podremos ver todos los generos de libros y comics que hay. También tenemos otra pestaña donde puedes añadir tus libros favoritos y subir libros o comics, pero para poder subir o añadir libros en tu biblioteca tiene que registrarte.
 Aquí os mostraremos parte del mockup:
 
-### Libros
+### Índice
+Como podreis ver en nuestro inicio tendremos el nombre de la empresa en el centro y con imagenes de fondo que se iran cambiando cada cierto tiempo. Y mas abajo expondremos nuestros mejores productos de libros y comics con un pequeño texto de descripción
+
+![Index1](https://github.com/user-attachments/assets/1861e737-962c-4a44-bb10-d3d0f47c675a)
+
+![Index2](https://github.com/user-attachments/assets/86ed3bb3-a397-4ea3-9071-5146eb465084)
+
+
+
+
+### Libros, Cómics y Audiolibros
+En los apartados de libros, cómics y audiolibros tendremos una lista de nuestrs productos y un buscado ariba a la derecha para encontrar de forma más rapida el producto deseado. 
+
 ![image](https://github.com/user-attachments/assets/5843927e-bd5c-4371-bea1-a17e168c8c1a)
 
 ### Estantería
