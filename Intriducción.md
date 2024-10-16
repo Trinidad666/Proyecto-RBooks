@@ -26,12 +26,13 @@ En los apartados de libros, cómics y audiolibros tendremos una lista de nuestrs
 ![image](https://github.com/user-attachments/assets/5843927e-bd5c-4371-bea1-a17e168c8c1a)
 
 ### Estantería
+En estanteria tendremos una seccion donde tendremos todos los genero que hay de lectura y a la derecha tendremos imagenes de libros cin un pequeño texto que indique los generos que tenmos de lectura. Una vez que hemos seleccionado una de las imagenes nos llevara a otra pesataña con un listado de libros, comics o audiolibros del mismo genero.
 ![image](https://github.com/user-attachments/assets/98c872c3-0395-461c-a091-3221a877ee6e)
 
 ### Mi Biblioteca
+Como dice su nombre Mi Biblioteca es una pagina donde tendremos almacenados los productod de lectura que nos ha gustado más, pero solo sera para aquellos que este registrados en nuestra página web.
 ![image](https://github.com/user-attachments/assets/dfec9607-3572-4459-9888-25231dcfbb84)
 
-Para poder ver más del mockup tenemos el archivo subido.
 
 ## Nuestra gamma de colores y Logo
 ### Blanco
