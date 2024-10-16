@@ -56,62 +56,6 @@ Hemos escogido este logo porque son las iniciales de nuestra empresa "RBooks" y 
 
 
 
-## Nuestro esquema de nuestra pagina web
-Aquí os mostraremos como nuestra pagina web esta conectado con el resto de paginas donde tenemos nuestros productos, la biblioteca, el inicio y registro de sesion.
-
-### Hardware y Sistem Operativo
-Utilizamos de hardware 2GB de memoria, 1 procesador, disco duro de 14GB y de nuestro sistema operativo hemos utilizado un Ubuntu live Server 22.04.2.
-
-### Estas son nuestrar maquina virtuales que tenmos de momento
-
-Aquí os explicaremos los pasos que hemos hecho:
-Vamos a proxmox y nos dirigimos al nodo de nuestro servidor llamado rbooks. Creamos la interfaz de red y añadimo la ip 10.20.40.253/24 usando un Linux Bridge y el nombre es vmbr1.
-
-
-### Router
-En el HW del Router le ponemos el dispositivo de red que creamos el vmbr1
-En netplan creamo la red interna y externa.
-
-![image](https://github.com/user-attachments/assets/2a46b4aa-0c67-4d3b-b303-56060908021c)
-
-Y le hacemos un "netplan apply" para guarda los cambios que hicimos.
-
-Luego añadimos la dirección nano /etc/sysctl.conf y Quitamos el "#" en la linea donde se encuentra "net.ipv4.ip_forward=1".
-Y le ponemos los cabios con el "sysctl -p"
-
-
-Despues agregamos sudo apt install iptables.
-
-Cuando termine podemos comprobar que no tenemos ninguna regla habilitada, por supuesto:
-iptables -L
-iptables -t nat -L
-
-Ahora configuramos una regla de iptables como se muestra a continuación. 
-iptables -t nat -A POSTROUTING -o ens18 -j MASQUERADE
-
-Hacemos esta comprobacion:
-
-![image](https://github.com/user-attachments/assets/f4408498-fd52-4f9d-905d-a825dc4a0488)
-
-Luego le hacemso un "sudo iptables-save" y luego le instalamos "sudo apt install iptables-persistent -y"
-
-
-### Cliente
-Le cambiamos el dispositivo de red del vmbr0 a vmbr1
-
-Añadimos ip cliente:
-
-![1](https://github.com/user-attachments/assets/85b903dd-e965-4ffd-8bc8-55286426e983)
-
-Hacemos ping en cuanlquier dirección ip.
-
-![2](https://github.com/user-attachments/assets/a1bf4d41-f953-45d2-a064-b1b7b0515a1c)
-
-
-
-
-
-
 
 
 
