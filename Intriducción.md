@@ -26,7 +26,7 @@ En los apartados de libros, cómics y audiolibros tendremos una lista de nuestrs
 ![image](https://github.com/user-attachments/assets/5843927e-bd5c-4371-bea1-a17e168c8c1a)
 
 ### Estantería
-En estanteria tendremos una seccion donde tendremos todos los genero que hay de lectura y a la derecha tendremos imagenes de libros cin un pequeño texto que indique los generos que tenmos de lectura. Una vez que hemos seleccionado una de las imagenes nos llevara a otra pesataña con un listado de libros, comics o audiolibros del mismo genero.
+En la estantería tendremos una sección donde tendremos todos los géneros que hay de lectura y a la derecha tendremos imágenes de libros con un pequeño texto que indique los géneros que tenmos de lectura. Una vez que hemos seleccionado una de las imágenes nos llevara a otra pesataña con un listado de libros, cómics o audiolibros del mismo género.
 ![image](https://github.com/user-attachments/assets/98c872c3-0395-461c-a091-3221a877ee6e)
 
 ### Mi Biblioteca
@@ -36,7 +36,7 @@ Como dice su nombre Mi Biblioteca es una pagina donde tendremos almacenados los 
 
 ## Nuestra gamma de colores y Logo
 ### Blanco
-Hemos usado el color blanco porque es agradable y da paz y tranquilidad al usuario. 
+Hemos usado el color blanco porque es agradable y da tranquilidad al usuario. 
 
 ### Naranja
 Hemos elegido el color naranja porque se asocia con la energía, la creatividad y el entusiasmo.
@@ -45,7 +45,7 @@ Hemos elegido el color naranja porque se asocia con la energía, la creatividad 
 Hemos elegido el color azul oscura porque simboliza la seriedad por los productos que vendamos como biografias sobre etapas belicas, dramas, etc.
 
 ### Negro
-Hemos utilizado el color negro por su elegancia y sobre todo porque simboliza el misterio para nuestros productos como los libros de H. P. Lovecraft.
+Hemos utilizado el color negro por su elegancia y sobre todo porque simboliza el misterio para nuestros productos como los libros de H. P. Lovecraft(horror y misterio).
 ![RBOOKS_Panel de colores](https://github.com/user-attachments/assets/31e1feab-92b2-4ff0-867c-8120417f4c86)
 
 
