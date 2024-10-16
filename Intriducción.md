@@ -11,7 +11,7 @@ Como podreis ver en nuestro mockup se muestra las pestañas de nuestros producto
 Aquí os mostraremos parte del mockup:
 
 ### Índice
-Como podreis ver en nuestro inicio tendremos el nombre de la empresa en el centro y con imagenes de fondo que se iran cambiando cada cierto tiempo. Y mas abajo expondremos nuestros mejores productos de libros y comics con un pequeño texto de descripción
+Como podreis ver en nuestro inicio tendremos el nombre de la empresa en el centro y con imagenes de fondo que se iran desplazandose a la izquierda cada cierto tiempo. Más abajo expondremos nuestros mejores productos de libros y cómics con un pequeño texto de descripción sobre dicho producto.
 
 ![Index1](https://github.com/user-attachments/assets/1861e737-962c-4a44-bb10-d3d0f47c675a)
 
