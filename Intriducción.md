@@ -1,9 +1,7 @@
 ## Introducción
-Quienes Somos:
 Somos una empresa fundada por Hugo Marín y Víctor Almansa y hemos decidido crear una aplicación web para el entretenimiento de lectura tanto de libros, cómics y audiolibros.
 
-En que consiste nuestra app:
-Consiste en proporcionar a los clientes una forma más cómoda de leer libros o cómics y poder encontrar los tipos de lectura que quieren los clientes, también puedan encontrar libros o cómics que ya no se puedan encontrar en ninguna librería o tienda de cómics. Si nuestros clientes registrados son escritores pueden publicar sus libros o biografías y negociar con nosotros un precio para vender dichos productos. Parte de nuestro producto como hemos mencionado antes son los cómisc de marcas conocidas como MARVEL, DC o Astiberri(editoriales de cómics más importantes de España) y otras marcas no tan conocidas con las que hemos hecho negociosa para la venta de sus productos.
+Nuetra app consiste en proporcionar a los clientes una forma más cómoda de leer libros o cómics y poder encontrar los tipos de lectura que quieren los clientes, también puedan encontrar libros o cómics que ya no se puedan encontrar en ninguna librería o tienda de cómics. Si nuestros clientes registrados son escritores pueden publicar sus libros o biografías y negociar con nosotros un precio para vender dichos productos. Parte de nuestro producto como hemos mencionado antes son los cómisc de marcas conocidas como MARVEL, DC o Astiberri(editoriales de cómics más importantes de España) y otras marcas no tan conocidas con las que hemos hecho negociosa para la venta de sus productos.
 
 
 ## Diseño de nuestra aplicación
