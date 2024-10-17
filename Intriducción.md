@@ -56,7 +56,66 @@ Hemos escogido este logo porque son las iniciales de nuestra empresa "RBooks" y 
 
 
 
+## Funcionalidades
 
+Fun1 → login (hugo)
+ 
+Fun2 → registro (victor)
+
+Fun3 → password (hugo)
+
+
+Fun4 → users permisos: (victor/hugo)
+
+admin:
+
+Iniciar sesión
+
+Personalizar y actualizar nuestra pagina web
+
+Cerrar/Abrir cuenta de usuario
+
+Visitar la página web
+
+Ver nuestros producto
+
+Quitar/Añadir producto
+
+Negociar precio del producto y ganancias del usuario registrado
+
+ 
+
+clientes registrados (profesores):
+
+Visitar la página web
+
+Leer sobre nosotros
+
+Iniciar sesión
+
+Cambiar contraseña
+
+Ver nuestros productos
+
+Comprar producto
+
+Guardar el producto comprado en su bibliotecas
+
+Subir su producto para vender.
+
+Negociar precio de su producto y ganancias
+
+ 
+
+clientes
+
+Visitar la página web
+
+Ver nuestros productos
+
+Leer sobre nosotros
+
+Registrarse
 
 
 
