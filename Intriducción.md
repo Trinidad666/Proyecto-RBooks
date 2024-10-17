@@ -1,15 +1,20 @@
 ## Introducción
-Somos una empresa fundada por Hugo Marín y Víctor Almansa que hemos decidido crear una aplicación web para el entretenimiento de lectura tanto de libros, cómics y audiolibros.
+Somos una empresa fundada por Hugo Marín y Víctor Almansa que hemos decidido crear una aplicación web para el entretenimiento en la lectura de libros, cómics y audiolibros.
 
-Nuetra app consiste en proporcionar a los clientes una forma más cómoda de leer libros o cómics y poder encontrar los tipos de lectura que quieren los clientes, también puedan encontrar libros o cómics que ya no se puedan encontrar en ninguna librería o tienda de cómics. Si nuestros clientes registrados son escritores pueden publicar sus libros o biografías y negociar con nosotros un precio para vender dichos productos. Parte de nuestro producto como hemos mencionado antes son los cómisc de marcas conocidas como MARVEL, DC o Astiberri(editoriales de cómics más importantes de España) y otras marcas no tan conocidas con las que hemos hecho negociosa para la venta de sus productos.
+Nuetra app consiste en proporcionar a los clientes una forma más cómoda de leer y encontrar los tipos de lectura que desean los clientes, también puedan acceder a libros o cómics que ya no esten disponibles ena librerías o tiendas de cómics. Si nuestros clientes registrados son escritores, pueden publicar sus libros o biografías y negociar con nosotros un precio para vender sus productos. 
+
+Parte de nuestro producto incluye cómisc de marcas conocidas como MARVEL, DC o Astiberri(editorial de cómics más importantes de España), así como otras marcas más o menos conocidas con las que hemos establecido acuerdos para la venta de sus productos.
 
 
 ## Diseño de nuestra aplicación
-Como podreis ver en nuestro mockup se muestra las pestañas de nuestros productos como libros, comics y audio libros, también tenemos la sección de estantería donde podremos ver todos los generos de libros y comics que hay. También tenemos otra pestaña donde puedes añadir tus libros favoritos y subir libros o comics, pero para poder subir o añadir libros en tu biblioteca tiene que registrarte.
-Aquí os mostraremos parte del mockup:
+Como podreis ver nuestro diseño de aplicación muestra las pestañas de nuestros productos: libros, comics y audio libros. También contamos con una sección de estantería donde expondremos todos los generos de libros y comics disponibles. Ademas contamos con otra pestaña donde pueden añadir libros favoritos y subir libros o comics, pero es necesario registrarse para poder añadir contenido a la bibliotec
+
+Aquí os mostraremos parte del diseño:
 
 ### Índice
-Como podreis ver en nuestro inicio tendremos el nombre de la empresa en el centro y con imagenes de fondo que se iran desplazandose a la izquierda cada cierto tiempo. Más abajo expondremos nuestros mejores productos de libros y cómics con un pequeño texto de descripción sobre dicho producto.
+Como podreis ver en nuestra página deinici, el nombre de la empresa se ubicará en el cento, acompañada de imágenes de fondo que se desplazarán hacia la izquierda cada cierto tiempo. 
+
+Más abajo, presentaremos nuestros mejores productos de libros y cómics, con un brebe texto de descripción sobre el producto que estamos vendiendo.
 
 ![Index1](https://github.com/user-attachments/assets/1861e737-962c-4a44-bb10-d3d0f47c675a)
 
@@ -19,7 +24,7 @@ Como podreis ver en nuestro inicio tendremos el nombre de la empresa en el centr
 
 
 ### Libros, Cómics y Audiolibros
-En los apartados de libros, cómics y audiolibros tendremos una lista de nuestrs productos y un buscado ariba a la derecha para encontrar de forma más rapida el producto deseado. 
+En las secciones de libros, cómics y audiolibros, contaremos con una lista de nuestros productos, acompañada de un buscador ubicado en la parte superior derecha para facilitar la búsqueda rápida del artículo deseado. Además, cada producto incluirá información detallada, como una sinopsis, valoraciones y opciones de compra.
 
 ![image](https://github.com/user-attachments/assets/5843927e-bd5c-4371-bea1-a17e168c8c1a)
 
