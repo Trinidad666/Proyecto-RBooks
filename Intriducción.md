@@ -70,7 +70,7 @@ Fun3 → password (hugo)
 
 Fun4 → users permisos: (victor/hugo)
 
-admin:
+### admin:
 
 Iniciar sesión
 
@@ -86,9 +86,24 @@ Quitar/Añadir producto
 
 Negociar precio del producto y ganancias del usuario registrado
 
+
+### empleados:
+
+Iniciar sesión
+
+Personalizar y actualizar nuestra pagina web
+
+Cerrar/Abrir cuenta de usuario
+
+Visitar la página web
+
+Ver nuestros producto
+
+Quitar/Añadir producto
+
  
 
-clientes registrados (profesores):
+### clientes registrados (profesores):
 
 Visitar la página web
 
@@ -110,7 +125,7 @@ Negociar precio de su producto y ganancias
 
  
 
-clientes
+### clientes
 
 Visitar la página web
 
