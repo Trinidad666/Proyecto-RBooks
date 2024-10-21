@@ -86,38 +86,38 @@ Implementar un sistema de bloqueo temporal después de varios intentos fallidos 
 
 Administradores:
 
-Iniciar sesión
-Personalizar y actualizar nuestra página web
-Cerrar/Abrir cuenta de usuario
-Visitar la página web
-Ver nuestros producto
-Quitar/Añadir producto
-Negociar precio del producto y ganancias del usuario registrado
+- Iniciar sesión
+- Personalizar y actualizar nuestra página web
+- Cerrar/Abrir cuenta de usuario
+- Visitar la página web
+- Ver nuestros producto
+- Quitar/Añadir producto
+- Negociar precio del producto y ganancias del usuario registrado
 
 
 
 Empleados:
 
-Iniciar sesión
-Personalizar y actualizar nuestra página web
-Cerrar/Abrir cuenta de usuario
-Visitar la página web
-Ver nuestros producto
-Quitar/Añadir producto
+- Iniciar sesión
+- Personalizar y actualizar nuestra página web
+- Cerrar/Abrir cuenta de usuario
+- Visitar la página web
+- Ver nuestros producto
+- Quitar/Añadir producto
 
 
 
 Clientes registrados (profesores):
 
-* Visitar la página web
-* Leer sobre nosotros
-* Iniciar sesión
-* Cambiar contraseña
-* Ver nuestros productos
-* Comprar producto
-* Guardar el producto comprado en su bibliotecas
-* Subir su producto para venderlo.
-* Negociar precio de su producto y ganancias
+- Visitar la página web
+- Leer sobre nosotros
+- Iniciar sesión
+- Cambiar contraseña
+- Ver nuestros productos
+- Comprar producto
+- Guardar el producto comprado en su bibliotecas
+- Subir su producto para venderlo.
+- Negociar precio de su producto y ganancias
 
 
 
