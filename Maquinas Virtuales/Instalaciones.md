@@ -1,7 +1,11 @@
 # Arquitectura de Nuestras MV
 Aquí lo que haremos es poner los Sistemas Operativos y la capacidad de CPU, Ram, Disco Duro que tendrá cada Maquina Virtual.
 
-
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 # Instalación de las MV
