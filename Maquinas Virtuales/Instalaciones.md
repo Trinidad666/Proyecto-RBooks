@@ -21,20 +21,16 @@ En netplan creamo la red interna y externa.
 
 Y le hacemos un "netplan apply" para guarda los cambios que hicimos.
 
-Luego añadimos la dirección nano /etc/sysctl.conf y Quitamos el "#" en la linea donde se encuentra "net.ipv4.ip_forward=1".
-Y le ponemos los cabios con el "sysctl -p"
+Luego añadimos la dirección nano /etc/sysctl.conf y Quitamos el "#" en la línea donde se encuentra "net.ipv4.ip_forward=1". Y le ponemos los cabios con el "sysctl -p"
 
+Después agregamos sudo apt install iptables.
 
-Despues agregamos sudo apt install iptables.
+Cuando termine podemos comprobar que no tenemos ninguna regla habilitada, por supuesto: iptables -L iptables -t nat -L
 
-Cuando termine podemos comprobar que no tenemos ninguna regla habilitada, por supuesto:
-iptables -L
-iptables -t nat -L
+Ahora configuramos una regla de iptables como se muestra a continuación. iptables -t nat -A POSTROUTING -o ens18 -j MASQUERADE
 
-Ahora configuramos una regla de iptables como se muestra a continuación. 
-iptables -t nat -A POSTROUTING -o ens18 -j MASQUERADE
-
-Hacemos esta comprobacion:
+<br>
+Hacemos esta comprobación:
 
 ![image](https://github.com/user-attachments/assets/f4408498-fd52-4f9d-905d-a825dc4a0488)
 
