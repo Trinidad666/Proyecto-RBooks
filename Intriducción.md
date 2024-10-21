@@ -84,11 +84,10 @@ Implementar un sistema de bloqueo temporal después de varios intentos fallidos 
 
 ### Funcionalidad de users permisos: (victor/hugo)
 
-
-Admininstradores:
+Administradores:
 
 Iniciar sesión
-Personalizar y actualizar nuestra pagina web
+Personalizar y actualizar nuestra página web
 Cerrar/Abrir cuenta de usuario
 Visitar la página web
 Ver nuestros producto
@@ -100,7 +99,7 @@ Negociar precio del producto y ganancias del usuario registrado
 Empleados:
 
 Iniciar sesión
-Personalizar y actualizar nuestra pagina web
+Personalizar y actualizar nuestra página web
 Cerrar/Abrir cuenta de usuario
 Visitar la página web
 Ver nuestros producto
@@ -117,19 +116,17 @@ Cambiar contraseña
 Ver nuestros productos
 Comprar producto
 Guardar el producto comprado en su bibliotecas
-Subir su producto para vender.
+Subir su producto para venderlo.
 Negociar precio de su producto y ganancias
 
 
 
-Clientes
+Clientes:
 
 Visitar la página web
 Ver nuestros productos
 Leer sobre nosotros
 Registrarse
-
-
 
 
 
