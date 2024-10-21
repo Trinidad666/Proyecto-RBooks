@@ -109,24 +109,24 @@ Quitar/Añadir producto
 
 Clientes registrados (profesores):
 
-Visitar la página web
-Leer sobre nosotros
-Iniciar sesión
-Cambiar contraseña
-Ver nuestros productos
-Comprar producto
-Guardar el producto comprado en su bibliotecas
-Subir su producto para venderlo.
-Negociar precio de su producto y ganancias
+* Visitar la página web
+* Leer sobre nosotros
+* Iniciar sesión
+* Cambiar contraseña
+* Ver nuestros productos
+* Comprar producto
+* Guardar el producto comprado en su bibliotecas
+* Subir su producto para venderlo.
+* Negociar precio de su producto y ganancias
 
 
 
 Clientes:
 
-Visitar la página web
-Ver nuestros productos
-Leer sobre nosotros
-Registrarse
+- Visitar la página web
+- Ver nuestros productos
+- Leer sobre nosotros
+- Registrarse
 
 
 
