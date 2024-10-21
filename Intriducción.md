@@ -1,20 +1,20 @@
 ## Introducción
 Somos una empresa fundada por Hugo Marín y Víctor Almansa que hemos decidido crear una aplicación web para el entretenimiento en la lectura de libros, cómics y audiolibros.
 
-Nuetra app consiste en proporcionar a los clientes una forma más cómoda de leer y encontrar los tipos de lectura que desean los clientes, también puedan acceder a libros o cómics que ya no esten disponibles ena librerías o tiendas de cómics. Si nuestros clientes registrados son escritores, pueden publicar sus libros o biografías y negociar con nosotros un precio para vender sus productos. 
+Nuestra app consiste en proporcionar a los clientes una forma más cómoda de leer y encontrar los tipos de lectura que desean los clientes, también puedan acceder a libros o cómics que ya no estén disponibles en librerías o tiendas de cómics. Si nuestros clientes registrados son escritores, pueden publicar sus libros o biografías y negociar con nosotros un precio para vender sus productos. 
 
-Parte de nuestro producto incluye cómisc de marcas conocidas como MARVEL, DC o Astiberri(editorial de cómics más importantes de España), así como otras marcas más o menos conocidas con las que hemos establecido acuerdos para la venta de sus productos.
+Parte de nuestro producto incluye cómics de marcas conocidas como MARVEL, DC o Astiberri(editorial de cómics más importante de España), así como otras marcas más o menos conocidas con las que hemos establecido acuerdos para la venta de sus productos.
 
 
 ## Diseño de nuestra aplicación
-Como podreis ver nuestro diseño de aplicación muestra las pestañas de nuestros productos: libros, comics y audio libros. También contamos con una sección de estantería donde expondremos todos los generos de libros y comics disponibles. Ademas contamos con otra pestaña donde pueden añadir libros favoritos y subir libros o comics, pero es necesario registrarse para poder añadir contenido a la bibliotec
+Como podréis ver nuestro diseño de aplicación muestra las pestañas de nuestros productos: libros, comics y audio libros. También contamos con una sección de estantería donde expondremos todos los géneros de libros y cómics disponibles. Además contamos con otra pestaña donde pueden añadir libros favoritos y subir libros o cómics, pero es necesario registrarse para poder añadir contenido a la bibliotec
 
 Aquí os mostraremos parte del diseño:
 
 ### Índice
-Como podreis ver en nuestra página deinici, el nombre de la empresa se ubicará en el cento, acompañada de imágenes de fondo que se desplazarán hacia la izquierda cada cierto tiempo. 
+Como podéis ver en nuestra página de inicio, el nombre de la empresa se ubicará en el centro, acompañada de imágenes de fondo que se desplazarán hacia la izquierda cada cierto tiempo. 
 
-Más abajo, presentaremos nuestros mejores productos de libros y cómics, con un brebe texto de descripción sobre el producto que estamos vendiendo.
+Más abajo, presentamos nuestros mejores productos de libros y cómics, con un breve texto de descripción sobre el producto que estamos vendiendo.
 
 ![Index1](https://github.com/user-attachments/assets/1861e737-962c-4a44-bb10-d3d0f47c675a)
 
@@ -29,11 +29,11 @@ En las secciones de libros, cómics y audiolibros, contaremos con una lista de n
 ![image](https://github.com/user-attachments/assets/5843927e-bd5c-4371-bea1-a17e168c8c1a)
 
 ### Estantería
-En la estantería tendremos una sección donde tendremos todos los géneros que hay de lectura y a la derecha tendremos imágenes de libros con un pequeño texto que indique los géneros que tenmos de lectura. Una vez que hemos seleccionado una de las imágenes nos llevara a otra pesataña con un listado de libros, cómics o audiolibros del mismo género.
+En la estantería tendremos una sección donde tendremos todos los géneros que hay de lectura y a la derecha tendremos imágenes de libros con un pequeño texto que indique los géneros que tenemos de lectura. Una vez que hemos seleccionado una de las imágenes nos llevará a otra pestaña con un listado de libros, cómics o audiolibros del mismo género.
 ![image](https://github.com/user-attachments/assets/98c872c3-0395-461c-a091-3221a877ee6e)
 
 ### Mi Biblioteca
-Como dice su nombre Mi Biblioteca es una pagina donde tendremos almacenados los productod de lectura que nos ha gustado más, pero solo sera para aquellos que este registrados en nuestra página web.
+Como dice su nombre Mi Biblioteca es una página donde tendremos almacenados los productos de lectura que nos ha gustado más, pero solo será para aquellos que estén registrados en nuestra página web.
 ![image](https://github.com/user-attachments/assets/dfec9607-3572-4459-9888-25231dcfbb84)
 
 
@@ -45,7 +45,7 @@ Hemos usado el color blanco porque es agradable y da tranquilidad al usuario.
 Hemos elegido el color naranja porque se asocia con la energía, la creatividad y el entusiasmo.
 
 ### Azul oscuro
-Hemos elegido el color azul oscura porque simboliza la seriedad por los productos que vendamos como biografias sobre etapas belicas, dramas, etc.
+Hemos elegido el color azul oscuro porque simboliza la seriedad por los productos que vendemos como biografías sobre etapas bélicas, dramas, etc.
 
 ### Negro
 Hemos utilizado el color negro por su elegancia y sobre todo porque simboliza el misterio para nuestros productos como los libros de H. P. Lovecraft(horror y misterio).
@@ -127,6 +127,7 @@ Clientes:
 - Ver nuestros productos
 - Leer sobre nosotros
 - Registrarse
+
 
 
 
