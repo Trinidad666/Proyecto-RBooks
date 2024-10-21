@@ -14,7 +14,7 @@ Aquí pondremos los pasos que hemos hecho con las maquinas virtuales, que comand
 
 
 ## Router
-En el HW del Router le ponemos el dispositivo de red que creamos el vmbr1
+En el HW del Router le ponemos el dispositivo de red que creamos el vmbr1.
 En netplan creamos la red interna y externa.
 
 ![image](https://github.com/user-attachments/assets/2a46b4aa-0c67-4d3b-b303-56060908021c)
