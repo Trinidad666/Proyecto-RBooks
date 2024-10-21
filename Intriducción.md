@@ -96,6 +96,7 @@ Quitar/Añadir producto
 Negociar precio del producto y ganancias del usuario registrado
 
 
+
 Empleados:
 
 Iniciar sesión
@@ -104,6 +105,7 @@ Cerrar/Abrir cuenta de usuario
 Visitar la página web
 Ver nuestros producto
 Quitar/Añadir producto
+
 
 
 Clientes registrados (profesores):
@@ -117,6 +119,7 @@ Comprar producto
 Guardar el producto comprado en su bibliotecas
 Subir su producto para vender.
 Negociar precio de su producto y ganancias
+
 
 
 Clientes
