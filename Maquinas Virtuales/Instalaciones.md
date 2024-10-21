@@ -21,7 +21,7 @@ En netplan creamo la red interna y externa.
 
 Y le hacemos un "netplan apply" para guarda los cambios que hicimos.
 
-Luego añadimos la dirección nano /etc/sysctl.conf y Quitamos el "#" en la linea donde se encuentra "net.ipv4.ip_forward=1".
+Luego añadimos la dirección <u> nano /etc/sysctl.conf</u> y Quitamos el "#" en la linea donde se encuentra "net.ipv4.ip_forward=1".
 Y le ponemos los cabios con el "sysctl -p"
 
 
