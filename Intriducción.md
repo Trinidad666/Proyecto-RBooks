@@ -3,7 +3,7 @@ Somos una empresa fundada por Hugo Marín y Víctor Almansa que hemos decidido c
 
 Nuestra app consiste en proporcionar a los clientes una forma más cómoda de leer y encontrar los tipos de lectura que desean los clientes, también puedan acceder a libros o cómics que ya no estén disponibles en librerías o tiendas de cómics. Si nuestros clientes registrados son escritores, pueden publicar sus libros o biografías y negociar con nosotros un precio para vender sus productos. 
 
-Parte de nuestro producto incluye cómics de marcas conocidas como MARVEL, DC o Astiberri(editorial de cómics más importante de España), así como otras marcas más o menos conocidas con las que hemos establecido acuerdos para la venta de sus productos.
+Parte de nuestro producto incluye cómics de marcas conocidas como MARVEL, DC o Astiberri(editorial de cómics más importante de España), así como otras marcas más o menos conocidas con las que hemos establecido acuerdos para la venta de sus productos. Tambien contamos con Libros conocidos como los del Señor de los Anillos, Harry Potter, la Guerra de los mundos, etc
 
 
 ## Diseño de nuestra aplicación
