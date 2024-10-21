@@ -4,16 +4,13 @@ Aquí lo que haremos es poner los Sistemas Operativos y la capacidad de CPU, Ram
 <br>
 <br>
 <br>
-<br>
-<br>
 
 
 # Instalación de las MV
 Aquí pondremos los pasos que hemos hecho con las maquinas virtuales, que comando hemos utilizado y mostraremos algunas imágenes de la instalación.
 
 
-
-
+<br>
 
 
 ## Router
@@ -43,6 +40,7 @@ Hacemos esta comprobacion:
 
 Luego le hacemso un "sudo iptables-save" y luego le instalamos "sudo apt install iptables-persistent -y"
 
+<br>
 
 ## Cliente
 Le cambiamos el dispositivo de red del vmbr0 a vmbr1
