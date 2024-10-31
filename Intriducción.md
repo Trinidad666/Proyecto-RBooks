@@ -63,15 +63,15 @@ Hemos escogido este logo porque son las iniciales de nuestra empresa "RBooks" y 
 
 ### Funcionalidades de Registro 
 Login (hugo):
-Implementar un segundo nivel de autenticación para aumentar la seguridad del login, como códigos de verificación vía SMS o correo.
+- Implementar un segundo nivel de autenticación para aumentar la seguridad del login, como códigos de verificación vía SMS o correo.
 
 Registro (victor):
-Añadir verificación de email, contraseñas y otros datos durante el registro para evitar errores (e.g., emails duplicados, contraseñas débiles).
-Permitir a los usuarios registrarse usando cuentas sociales como Google, Facebook o LinkedIn para mayor comodidad.
+- Añadir verificación de email, contraseñas y otros datos durante el registro para evitar errores (e.g., emails duplicados, contraseñas débiles).
+- Permitir a los usuarios registrarse usando cuentas sociales como Google, Facebook o LinkedIn para mayor comodidad.
 
 Password (hugo)
-Asegurar que el enlace de restablecimiento expire rápidamente y sea de un solo uso.
-Mostrar un medidor de la fuerza de la contraseña en tiempo real para fomentar contraseñas más seguras.
+- Asegurar que el enlace de restablecimiento expire rápidamente y sea de un solo uso.
+- Mostrar un medidor de la fuerza de la contraseña en tiempo real para fomentar contraseñas más seguras.
 
 
 ### Funcionalidad de users permisos: (victor/hugo)
