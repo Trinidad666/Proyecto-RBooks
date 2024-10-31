@@ -59,76 +59,84 @@ Hemos escogido este logo porque son las iniciales de nuestra empresa "RBooks" y 
 
 
 
-## Funcionalidades
+## Funcionalidades 
 
-### Funcionalidad del login (hugo):
-Implementar un segundo nivel de autenticación para aumentar la seguridad del login, como códigos de verificación vía SMS o correo,
-Añadir la opción de recordar la sesión en dispositivos de confianza.
-Enviar una notificación al usuario cuando se inicia sesión desde un nuevo dispositivo o ubicación.
-Facilitar el inicio de sesión con un "recordar sesión" para usuarios frecuentes sin comprometer la seguridad.
+### Funcionalidades de Registro 
+Login (hugo):
+Implementar un segundo nivel de autenticación para aumentar la seguridad del login, como códigos de verificación vía SMS o correo.
 
- 
-### Funcionalidad de registro (victor):
+Registro (victor):
 Añadir verificación de email, contraseñas y otros datos durante el registro para evitar errores (e.g., emails duplicados, contraseñas débiles).
 Permitir a los usuarios registrarse usando cuentas sociales como Google, Facebook o LinkedIn para mayor comodidad.
-Asegurarse de que el email sea verificado para evitar registros fraudulentos.
-Simplificar el proceso de registro en una sola página o con un flujo más corto.
 
-
-### Funcionalidad de password (hugo)
+Password (hugo)
 Asegurar que el enlace de restablecimiento expire rápidamente y sea de un solo uso.
 Mostrar un medidor de la fuerza de la contraseña en tiempo real para fomentar contraseñas más seguras.
-Ofrecer opciones adicionales como recuperación por correo electrónico o teléfono, o preguntas de seguridad.
-Implementar un sistema de bloqueo temporal después de varios intentos fallidos para prevenir ataques de fuerza bruta.
 
 
 ### Funcionalidad de users permisos: (victor/hugo)
 
-Administradores:
+Funcionalidades para Administradores
 
-- Iniciar sesión
-- Personalizar y actualizar nuestra página web
-- Cerrar/Abrir cuenta de usuario
-- Visitar la página web
-- Ver nuestros producto
-- Quitar/Añadir producto
-- Negociar precio del producto y ganancias del usuario registrado
+Gestión de Contenido:
+- Añadir, editar o eliminar libros y descripciones.
+- Subir imágenes de portada y otros materiales relacionados.
 
+Gestión de Usuarios:
+- Ver y gestionar cuentas de usuarios (clientes).
+- Modificar roles o permisos de los usuarios.
 
+Moderación de Reseñas:
+- Aprobar o eliminar reseñas dejadas por los usuarios.
+- Responder a comentarios o preguntas.
 
-Empleados:
+Análisis y Reportes:
+- Ver estadísticas sobre libros más leídos, reseñas, y usuarios activos.
+- Informes sobre el tráfico del sitio y comportamiento del usuario.
 
-- Iniciar sesión
-- Personalizar y actualizar nuestra página web
-- Cerrar/Abrir cuenta de usuario
-- Visitar la página web
-- Ver nuestros producto
-- Quitar/Añadir producto
+Configuración de Promociones:
+- Crear y gestionar descuentos, promociones o eventos especiales.
 
+Manejo de Recursos:
+- Gestionar archivos digitales (eBooks, audiolibros) y su disponibilidad.
 
-
-Clientes registrados (profesores):
-
-- Visitar la página web
-- Leer sobre nosotros
-- Iniciar sesión
-- Cambiar contraseña
-- Ver nuestros productos
-- Comprar producto
-- Guardar el producto comprado en su bibliotecas
-- Subir su producto para venderlo.
-- Negociar precio de su producto y ganancias
+Sistema de Notificaciones:
+- Enviar notificaciones sobre nuevos libros, promociones o eventos.
 
 
+Funcionalidades para Clientes
 
-Clientes:
+Exploración de Libros:
+- Navegar por categorías, géneros y autores.
+- Filtrar y ordenar resultados por diferentes criterios.
 
-- Visitar la página web
-- Ver nuestros productos
-- Leer sobre nosotros
-- Registrarse
+Búsqueda Avanzada:
+- Buscar libros por título, autor, ISBN, o palabras clave.
 
+Reseñas y Valoraciones:
+- Dejar reseñas y calificaciones para los libros leídos.
+- Leer reseñas de otros usuarios.
 
+Lista de Deseos:
+- Crear y gestionar listas de deseos para libros futuros.
+
+Lectura en Línea:
+- Acceso a libros en formato digital para lectura en línea o descarga.
+
+Recomendaciones Personalizadas:
+- Sugerencias de libros basadas en historial de lectura y preferencias.
+
+Sistema de Notificaciones:
+- Recibir alertas sobre nuevos libros, promociones, o recomendaciones personalizadas.
+
+Perfil de Usuario:
+- Gestionar información de la cuenta, historial de lectura y preferencias.
+
+Foros y Comunidades:
+- Participar en discusiones sobre libros y conectarse con otros lectores.
+
+Acceso a Eventos:
+- Inscripción a eventos, como clubes de lectura o charlas con autores.
 
 
 
