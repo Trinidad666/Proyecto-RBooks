@@ -1,29 +1,29 @@
-## Funcionalidades
+# Funcionalidades
 
-### Funcionalidad del login (hugo):
+## Funcionalidad del login (hugo):
 Implementar un segundo nivel de autenticación para aumentar la seguridad del login, como códigos de verificación vía SMS o correo,
 Añadir la opción de recordar la sesión en dispositivos de confianza.
 Enviar una notificación al usuario cuando se inicia sesión desde un nuevo dispositivo o ubicación.
 Facilitar el inicio de sesión con un "recordar sesión" para usuarios frecuentes sin comprometer la seguridad.
 
  
-### Funcionalidad de registro (victor):
+## Funcionalidad de registro (victor):
 Añadir verificación de email, contraseñas y otros datos durante el registro para evitar errores (e.g., emails duplicados, contraseñas débiles).
 Permitir a los usuarios registrarse usando cuentas sociales como Google, Facebook o LinkedIn para mayor comodidad.
 Asegurarse de que el email sea verificado para evitar registros fraudulentos.
 Simplificar el proceso de registro en una sola página o con un flujo más corto.
 
 
-### Funcionalidad de password (hugo)
+## Funcionalidad de password (hugo)
 Asegurar que el enlace de restablecimiento expire rápidamente y sea de un solo uso.
 Mostrar un medidor de la fuerza de la contraseña en tiempo real para fomentar contraseñas más seguras.
 Ofrecer opciones adicionales como recuperación por correo electrónico o teléfono, o preguntas de seguridad.
 Implementar un sistema de bloqueo temporal después de varios intentos fallidos para prevenir ataques de fuerza bruta.
 
 
-### Funcionalidad de users permisos: (victor/hugo)
+## Funcionalidad de users permisos: (victor/hugo)
 
-Administradores:
+### Administradores:
 
 - Iniciar sesión:
 Permite a los administradores acceder al sistema de administración de la plataforma. Este inicio de sesión garantiza que solo personal autorizado pueda realizar cambios en el sitio web, gestionar productos y cuentas de usuarios. Usualmente requiere credenciales (usuario y contraseña) y, en algunos casos, autenticación de dos factores para mayor seguridad.
@@ -48,7 +48,7 @@ En caso de que la plataforma permita un modelo de comercio en el que los usuario
 
 
 
-Clientes registrados (profesores):
+### Clientes registrados (profesores):
 
 - Visitar la página web:
 Los profesores pueden navegar y explorar libremente el sitio web para conocer los servicios, productos, y cualquier actualización relevante. Esta funcionalidad está disponible para todos los usuarios, incluso sin iniciar sesión, y permite una primera toma de contacto con el contenido y propósito de la plataforma.
