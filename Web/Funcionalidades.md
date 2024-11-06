@@ -48,7 +48,7 @@ En caso de que la plataforma permita un modelo de comercio en el que los usuario
 
 
 
-### Clientes registrados (profesores):
+### Clientes registrados:
 
 - Visitar la página web:
 Los profesores pueden navegar y explorar libremente el sitio web para conocer los servicios, productos, y cualquier actualización relevante. Esta funcionalidad está disponible para todos los usuarios, incluso sin iniciar sesión, y permite una primera toma de contacto con el contenido y propósito de la plataforma.
