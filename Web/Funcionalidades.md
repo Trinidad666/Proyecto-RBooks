@@ -50,14 +50,30 @@ En caso de que la plataforma permita un modelo de comercio en el que los usuario
 
 Clientes registrados (profesores):
 
-- Visitar la página web
-- Leer sobre nosotros
-- Iniciar sesión
-- Cambiar contraseña
-- Ver nuestros productos
-- Comprar producto
-- Guardar el producto comprado en su bibliotecas
-- Subir su producto para venderlo.
-- Negociar precio de su producto y ganancias
+- Visitar la página web:
+Los profesores pueden navegar y explorar libremente el sitio web para conocer los servicios, productos, y cualquier actualización relevante. Esta funcionalidad está disponible para todos los usuarios, incluso sin iniciar sesión, y permite una primera toma de contacto con el contenido y propósito de la plataforma.
 
+- Leer sobre nosotros:
+En esta sección, los profesores pueden leer información detallada sobre la plataforma, su misión, visión, y valores. Esto les ayuda a entender el propósito y los beneficios de usar el servicio, así como el compromiso de la plataforma con sus necesidades y expectativas.
+
+- Iniciar sesión:
+Los profesores pueden acceder a su cuenta personal mediante un inicio de sesión seguro, usando su nombre de usuario y contraseña. Esto les permite acceder a las funcionalidades exclusivas para clientes registrados, como comprar productos, gestionar sus propias publicaciones, y revisar su biblioteca de contenidos adquiridos.
+
+- Cambiar contraseña:
+Esta funcionalidad permite a los profesores actualizar su contraseña cuando lo deseen, mejorando así la seguridad de su cuenta. Es especialmente útil en caso de olvido de la contraseña o si desean reforzar la seguridad de su perfil.
+
+- Ver nuestros productos:
+Los profesores pueden navegar por el catálogo de productos de la plataforma, ya sea para adquirir recursos educativos, herramientas o cualquier otro contenido de interés que esté disponible para compra. Pueden ver detalles como descripciones, precios y valoraciones de los productos.
+
+- Comprar producto:
+Una vez interesados en algún recurso, los profesores pueden realizar la compra directamente en la plataforma. Este proceso puede incluir la selección de opciones de pago y métodos de entrega, y proporciona acceso inmediato o diferido al contenido, según el tipo de producto.
+
+- Guardar el producto comprado en su bibliotecas:
+Los productos comprados por los profesores se guardan en una biblioteca personal dentro de su cuenta. Esto les permite acceder rápidamente a los recursos adquiridos en cualquier momento, manteniendo organizados todos los materiales comprados en un solo lugar.
+
+- Subir su producto para venderlo:
+Los profesores pueden también convertirse en vendedores, subiendo sus propios productos a la plataforma para que otros usuarios los compren. Esto les permite monetizar sus conocimientos y recursos, ya sean materiales didácticos, guías, o herramientas educativas que puedan ser útiles para otros docentes o usuarios.
+
+- Negociar precio de su producto y ganancias:
+Si el modelo de la plataforma permite flexibilidad en precios, los profesores pueden negociar el precio de venta de sus productos y acordar sus ganancias con el administrador de la plataforma. Esta funcionalidad facilita la adaptación del precio a la demanda y competitividad del mercado, y puede implicar establecer un margen de ganancia o negociar una comisión con la plataforma.
 
