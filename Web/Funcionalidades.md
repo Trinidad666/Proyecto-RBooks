@@ -34,18 +34,6 @@ Administradores:
 - Negociar precio del producto y ganancias del usuario registrado
 
 
-
-Empleados:
-
-- Iniciar sesión
-- Personalizar y actualizar nuestra página web
-- Cerrar/Abrir cuenta de usuario
-- Visitar la página web
-- Ver nuestros producto
-- Quitar/Añadir producto
-
-
-
 Clientes registrados (profesores):
 
 - Visitar la página web
@@ -57,14 +45,5 @@ Clientes registrados (profesores):
 - Guardar el producto comprado en su bibliotecas
 - Subir su producto para venderlo.
 - Negociar precio de su producto y ganancias
-
-
-
-Clientes:
-
-- Visitar la página web
-- Ver nuestros productos
-- Leer sobre nosotros
-- Registrarse
 
 
