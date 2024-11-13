@@ -49,3 +49,4 @@ Hacemos ping en cuanlquier dirección ip.
 
 ![2](https://github.com/user-attachments/assets/a1bf4d41-f953-45d2-a064-b1b7b0515a1c)
 
+
