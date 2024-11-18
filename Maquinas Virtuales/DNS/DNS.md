@@ -45,10 +45,7 @@ Ahora debemos editar el archivo *named.conf.local* usando el comando *sudo nano*
 
 Este código convierte los nombres de dominio en direcciones IPs. Cuando un cliente quiere acceder a Internet, como un sitio web, envía una consulta al servidor DNS solicitando la dirección IP la correspondencia al nombre del dominio (por ejemplo, rbooks.com → 10.20.40.1).
 
-// Búsquedas directas
-zone "rbooks.com" in {
-      type master;
-      file "/etc/bind/zones/db.rbooks.com";
-};
+![image](https://github.com/user-attachments/assets/394cb78f-8deb-44f3-a7ad-b9d468ed5a26)
+
 
 
