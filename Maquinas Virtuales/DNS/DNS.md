@@ -59,7 +59,6 @@ zone "40.20.10.in-addr.arpa" in {
       file "/etc/bind/zones/db.40.20.10";
 };
 ````
-
 ![image](https://github.com/user-attachments/assets/2f1bddc3-5f49-43ed-b2eb-d60e74a72861)
 
 
@@ -76,11 +75,36 @@ mkdir zones
 ````
 ![image](https://github.com/user-attachments/assets/9787f591-3ada-4cbe-8e2d-9ab12d908e92)
 
+Y luego comprobamos si se ha creado con el comando:
+````
+ls -l
+````
+Ahora tenemos que copiar dos archivos que son el db.127 y el db.local y cambiarle el nombre:
+* cp db.127 zones/db.40.20.10🡪 es el nombre que le ponemos al archivo que hemos copiado a la carpeta zones
+
+* cp db.local zones/db.rbooks.com🡪 es el nombre que le ponemos al archivo que hemos copiado a la carpeta zones
+
+![image](https://github.com/user-attachments/assets/1d579ce0-ec1c-44d6-a1d6-55b56318dce9)
 
 
+Una vez que hayamos copiado los dos archivos a la carpeta *zones*, accedemos a esa carpeta y luego abrimos el archivo *db.rbooks.com* para hacer los cambios necesarios.
 
+Este archivo configura una zona DNS en BIND para el dominio *rbooks.com*, definiendo su servidor de nombres (*ns.rbooks.com*), las direcciones IP asociadas (*10.20.40.17* y *10.20.40.16*), así como parámetros de control como los tiempos de actualización y caché.
 
+En este archivo, debemos cambiar los valores de *havem.local.* y *hostmaster.haven.local.* por *ns.rbooks.com.* y *admin.rbooks.com.*, respectivamente.
 
+ Luego ponemos lo siguiente:
+* @ IN NS ns.rbooks.com.: 
+Define que ns.rbooks.com es el servidor de nombres (NS) para la zona rbooks.com.
+
+* @ IN A 10.20.40.17: 
+Define la dirección IP del dominio principal rbooks.com como 10.20.40.17.
+
+* NS IN A 10.20.40.17: 
+Asigna la dirección IP 10.20.40.17 al servidor de nombres NS.
+
+* WWW IN A 10.20.40.16: 
+Define que www.rbooks.com apunta a la dirección IP 10.20.40.16.
 
 
 
