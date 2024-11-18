@@ -52,12 +52,50 @@ zone "rbooks.com" in {
 };
 ```
 Este código convierte una dirección IP en un nombre de dominio. Es similar al de búsqueda directa, pero en este caso, el cliente envía una consulta DNS con una dirección IP, y el servidor DNS devuelve el nombre de dominio asociado (por ejemplo, 10.20.40.1 → rbooks.com).
-
-```
+````
 // Búsquedas inversas
 zone "40.20.10.in-addr.arpa" in {
       type master;
       file "/etc/bind/zones/db.40.20.10";
 };
-```
+````
+
+![image](https://github.com/user-attachments/assets/2f1bddc3-5f49-43ed-b2eb-d60e74a72861)
+
+
+Guardamos los cambios y salimos del editor. Luego, ejecutamos el comando *named-checkconf* en la terminal para verificar si la configuración del archivo *named.conf.local* es correcta:
+* named-checkconf
+
+Este comando revisa la sintaxis y la configuración del archivo que hemos modificado. Si no muestra ningún mensaje, significa que todo está correcto. Sin embargo, si aparece algún texto de error, eso indica que hay un problema en el archivo y debes corregirlo.
+
+![image](https://github.com/user-attachments/assets/7119bd2c-9de0-4b3b-b381-fd0a1cb9c110)
+
+Luego creamos una nueva carpeta llamada zones usando el comando:
+````
+mkdir zones
+````
+![image](https://github.com/user-attachments/assets/9787f591-3ada-4cbe-8e2d-9ab12d908e92)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
