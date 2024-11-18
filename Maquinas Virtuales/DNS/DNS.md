@@ -184,6 +184,7 @@ Una vez que hayas guardado y salido del archivo, lo siguiente que haremos es rei
 * sudo systemctl status bind9
 
 ![image](https://github.com/user-attachments/assets/1c2649c2-f45e-443f-be19-66d7ee893d1c)
+
 ![image](https://github.com/user-attachments/assets/d913cf58-62d3-44fd-b56f-04e1d64a8a6e)
 
 Por último, utilizamos el comando nslookup, que permite realizar consultas a servidores DNS para resolver nombres de dominio a direcciones IP, o viceversa. 
