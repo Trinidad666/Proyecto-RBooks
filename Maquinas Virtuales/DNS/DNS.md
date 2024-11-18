@@ -194,22 +194,3 @@ Por último, utilizamos el comando nslookup, que permite realizar consultas a se
 ![image](https://github.com/user-attachments/assets/51ad045f-7140-4088-893b-ed53e2f52a62)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
