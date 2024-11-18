@@ -106,6 +106,96 @@ Asigna la dirección IP 10.20.40.17 al servidor de nombres NS.
 * WWW IN A 10.20.40.16: 
 Define que www.rbooks.com apunta a la dirección IP 10.20.40.16.
 
+![image](https://github.com/user-attachments/assets/7c8705d9-33cb-4e6c-b9c5-ef70d16c339c)
+
+
+Nos dirigimos al archivo *db.10.20.40* que se utiliza para realizar consultas inversas de las direcciones IP *10.20.40.16* y *10.20.40.17*, devolviendo el nombre de dominio rbooks.com. Esta configuración es útil en redes donde es necesario asociar direcciones IP con nombres de dominio para tareas de administración y autenticación.
+
+En este archivo, debemos cambiar *haven.local.* y *hostmaster.haven.local.* por *ns.rbooks.com.* y *hostmaster.rbooks.com.*, respectivamente.
+Lo que tenemos que hacer es poner estos códigos en el archivo:
+
+
+1. @ IN NS ns.rbooks.com.
+     * Declara que el servidor de nombres principal para esta zona inversa es *ns.rbooks.com*.
+     * El símbolo *@* representa el dominio o zona actual (en este caso, la subred configurada en el archivo de zona inversa).
+
+2. Registros PTR
+     * *17 IN PTR rbooks.com*: Indica que la dirección IP que termina en .17 en la subred configurada (por ejemplo, *10.20.40.17*) se resuelve inversamente al dominio *rbooks.com*.
+     * *16 IN PTR rbooks.com*: Indica que la dirección IP que termina en *.16* en la subred configurada (por ejemplo, *10.20.40.16*) también se resuelve inversamente al dominio *rbooks.com*.
+
+![image](https://github.com/user-attachments/assets/c13de924-9d39-4ecc-b661-35aeac28b21e)
+
+
+Cuando hayamos guardado y cerrado el archivo tendremos que comprobar si los dos archivos que hemos modificado funcionan a la perfección usando este comando:
+````
+named-checkzone 40.20.10.in-addr-arpa /etc/bind/zones/db.40.20.10
+````
+
+El resultado que te tiene que dar al ejecutar el comando en el CMD es el siguiente:
+````
+zone 10.20.10.in-addr-arpa/IN: loaded serial 1
+OK
+````
+![image](https://github.com/user-attachments/assets/2d190cb5-5a15-4c06-80b7-1854c14fd361)
+````
+named-checkzone rbooks.com /etc/bind/zones/db.rbooks.com
+````
+El resultado que te tiene que dar al ejecutar el comando en el CMD es este:
+````
+zone rbooks.com /IN: loaded serial 2
+OK
+````
+![image](https://github.com/user-attachments/assets/59847fa6-a7e9-4f47-b333-2c601974ffdf)
+
+Si el resultado no te pone un *OK* eso significa que hay algún problema en el código que hemos puesto en el archivo.
+
+
+Luego, debemos editar el archivo *named.conf.options*, que se encuentra en la siguiente dirección: */etc/bind/named.conf.options*. Dentro de este archivo, realizamos las siguientes configuraciones:
+
+Lo que hacemos es crear una lista de acceso para restringir el acceso a quienes pueden realizar las consultas a nuestro servidor DNS. También indicaremos un par de servidores forwarders donde pueda delegar nuestro servidor DNS local cuando no pueda resolver alguna consulta.
+````
+acl "safeclients"{
+       localhost;
+       10.20.40.17;
+       1.20.40.16;
+       localnets;
+};
+options {
+        directory "/var/cache/bind";
+        
+        recursion yes;
+        allow-recursion {safeclients; };
+        listen-on {10.20.40.17; };
+        allow-transfer {none; };
+
+        forwarders {
+                9.9.9.9;
+                8.8.8.8;
+        };
+        // If BIND logs error messages about the root key being expired,
+        // you will need to update your keys. See https://000.
+        #dnssec-validation auto;
+};
+````
+![image](https://github.com/user-attachments/assets/f076ff29-191c-4d42-a2a3-84018029d29d)
+
+Una vez que hayas guardado y salido del archivo, lo siguiente que haremos es reiniciar y verificar el estado del servicio BIND9 que hemos instalado en la MV con los siguientes comandos:
+* sudo systemctl restart bind9
+* sudo systemctl status bind9
+
+![image](https://github.com/user-attachments/assets/1c2649c2-f45e-443f-be19-66d7ee893d1c)
+![image](https://github.com/user-attachments/assets/d913cf58-62d3-44fd-b56f-04e1d64a8a6e)
+
+Por último, utilizamos el comando nslookup, que permite realizar consultas a servidores DNS para resolver nombres de dominio a direcciones IP, o viceversa. 
+
+* ns.rbooks.com
+* rbooks.com
+
+![image](https://github.com/user-attachments/assets/51ad045f-7140-4088-893b-ed53e2f52a62)
+
+
+
+
 
 
 
