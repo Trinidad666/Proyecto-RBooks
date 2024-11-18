@@ -20,6 +20,7 @@ Esto nos permitirá utilizar las siguientes herramientas:
 Es necesario habilitar DHCP en el archivo _/etc/netplan/00-installer-config.yaml_ para que el sistema obtenga una dirección IP automáticamente.
 
 Este código configura la red en un sistema Linux utilizando Netplan. Activa DHCP para la interfaz *ens18*, lo que permite que el sistema reciba una dirección IP automáticamente. Además, se pueden definir servidores DNS específicos y configurar una ruta predeterminada, estableciendo la puerta de enlace como *10.20.40.1*.
+
 ![netplan](https://github.com/user-attachments/assets/571fb651-0805-4386-a73b-52e2cd5b95b3)
 
 
@@ -30,6 +31,7 @@ Luego, debemos ejecutar los comandos *sudo netplan apply* y *sudo netplan try* p
 
 A continuación, instalamos *bind 9*, un software de servidor DNS ampliamente utilizado para resolver nombres de dominio y mapearlos a direcciones IP.
 * sudo apt install bind9 
+
 ![image](https://github.com/user-attachments/assets/4f06ee32-d486-4be9-bd6e-7fbb36d79ab6)
 
 Entraremos a las dos carpetas que son *etc* y *bind*.
@@ -37,7 +39,16 @@ Entraremos a las dos carpetas que son *etc* y *bind*.
 * cd /etc/bind
 
 Ahora debemos editar el archivo *named.conf.local* usando el comando *sudo nano* para poder modificar su configuración.
+
 ![image](https://github.com/user-attachments/assets/9fe24fe0-9731-423b-8a38-00fdac89f295)
 
+
+Este código convierte los nombres de dominio en direcciones IPs. Cuando un cliente quiere acceder a Internet, como un sitio web, envía una consulta al servidor DNS solicitando la dirección IP la correspondencia al nombre del dominio (por ejemplo, rbooks.com → 10.20.40.1).
+
+// Búsquedas directas
+zone "rbooks.com" in {
+      type master;
+      file "/etc/bind/zones/db.rbooks.com";
+};
 
 
