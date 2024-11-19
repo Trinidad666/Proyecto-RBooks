@@ -14,5 +14,5 @@
 4. *routes:*
    * Se define una ruta predeterminada con to: default, lo que indica que todo el tráfico que no coincida con rutas específicas en la tabla de enrutamiento será dirigido al gateway 100.77.20.1.
 
-5. *Conclusión:*
-   * La interfaz ens18 está configurada para la salida hacia redes externas (probablemente Internet). Todo el tráfico saliente que no pertenezca a la red local será enviado al gateway 100.77.20.1.
+*Conclusión:*
+  * La interfaz ens18 está configurada para la salida hacia redes externas (probablemente Internet). Todo el tráfico saliente que no pertenezca a la red local será enviado al gateway 100.77.20.1.
