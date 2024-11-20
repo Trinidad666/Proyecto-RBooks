@@ -37,7 +37,7 @@ El comando *SHOW DATABASES*; lista todas las bases de datos disponibles en el se
 
 
 El comando cambia el método de autenticación del usuario root en localhost a mysql_native_password y establece la contraseña como Kirby @2024.
-*alter user 'root'@'localhost' <ins>identified with mysql_native_password </ins>by 'Kirby @2024';*
+**<ins>alter user 'root'@'localhost' identified with mysql_native_password by 'Kirby @2024';</ins>**
 
 
 
