@@ -78,7 +78,56 @@ Si le ponemos el comando **show database;** podemos ver que se ha creado la base
 
 Seleccionamos una carpeta **.zip**(la capeta que hemos elegido es una que había en el campus IFP).
 
-![image](https://github.com/user-attachments/assets/371ffe74-1016-4ae8-aa2c-fba329cc1816)
+![image](https://github.com/user-attachments/assets/c981b0c9-7086-4bf4-8dfd-00a7aad37bcf)
+
+
+Primero, abrimos el CMD de Windows y navegamos hasta la carpeta indicada en la imagen utilizando el comando **cd**.
+
+![image](https://github.com/user-attachments/assets/860fa62f-3974-46dc-9500-559d5f7612f7)
+
+El comando **scp users.sql rbooks@100.77.20.22:/home/rbooks/** transfiere el archivo **users.sql** desde tu máquina local al directorio */home/rbooks/* en el servidor remoto con la dirección IP *100.77.20.22*, autenticándose con el usuario rbooks en dicho servidor.
+
+Luego añadimos la contraseña de la MV.
+
+![image](https://github.com/user-attachments/assets/0674c5db-19fd-4827-aef3-b5558ece3b07)
+
+
+Se puede verificar que la exportación ha funcionado correctamente ejecutando el comando *ls -l*.
+
+![image](https://github.com/user-attachments/assets/ed6e8989-d6a1-4ae3-9d6e-2d01e397cbd4)
+
+El comando ***mysql -u rbooks -p users < users.sql*** importa el archivo *users.sql* a la base de datos *users* en MySQL, autenticándose con el usuario *rbooks* y solicitando la contraseña antes de realizar la importación.
+
+![image](https://github.com/user-attachments/assets/950d9dec-a02f-463e-9207-810bbec918b7)
+
+![image](https://github.com/user-attachments/assets/28ab1152-952c-421c-b828-ecb681a1fe4b)
+
+
+Entramos a nuestro usuario de MySQL.
+
+![image](https://github.com/user-attachments/assets/5ce6398d-fed8-42c0-9e12-aa9fd8885734)
+
+El comando ***use users;*** selecciona la base de datos *users* para que todas las consultas posteriores se ejecuten en esa base de datos en MySQL.
+
+![image](https://github.com/user-attachments/assets/78b95eb0-bcf2-4cf6-a00a-9409d8723812)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
