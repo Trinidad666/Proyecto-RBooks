@@ -17,19 +17,19 @@ Esto nos permitirá utilizar las siguientes herramientas:
 * hostname: Permite ver o configurar el nombre del host.
 
 
-Es necesario habilitar DHCP en el archivo _/etc/netplan/00-installer-config.yaml_ para que el sistema obtenga una dirección IP automáticamente.
+Es necesario habilitar DHCP en el archivo ***_/etc/netplan/00-installer-config.yaml_*** para que el sistema obtenga una dirección IP automáticamente.
 
-Este código configura la red en un sistema Linux utilizando Netplan. Activa DHCP para la interfaz *ens18*, lo que permite que el sistema reciba una dirección IP automáticamente. Además, se pueden definir servidores DNS específicos y configurar una ruta predeterminada, estableciendo la puerta de enlace como *10.20.40.1*.
+Este código configura la red en un sistema Linux utilizando Netplan. Activa DHCP para la interfaz **ens18**, lo que permite que el sistema reciba una dirección IP automáticamente. Además, se pueden definir servidores DNS específicos y configurar una ruta predeterminada, estableciendo la puerta de enlace como *10.20.40.1*.
 
 ![netplan](https://github.com/user-attachments/assets/571fb651-0805-4386-a73b-52e2cd5b95b3)
 
 
-Luego, debemos ejecutar los comandos *sudo netplan apply* y *sudo netplan try* para aplicar los cambios de configuración de red en la máquina. Si no se ejecutan estos comandos, el sistema no detectará la dirección IP asignada correctamente:
+Luego, debemos ejecutar los comandos **sudo netplan apply** y **sudo netplan try** para aplicar los cambios de configuración de red en la máquina. Si no se ejecutan estos comandos, el sistema no detectará la dirección IP asignada correctamente:
 * sudo netplan apply
 * sudo netplan try
 
 
-A continuación, instalamos *bind 9*, un software de servidor DNS ampliamente utilizado para resolver nombres de dominio y mapearlos a direcciones IP.
+A continuación, instalamos **bind 9**, un software de servidor DNS ampliamente utilizado para resolver nombres de dominio y mapearlos a direcciones IP.
 * sudo apt install bind9 
 
 ![image](https://github.com/user-attachments/assets/4f06ee32-d486-4be9-bd6e-7fbb36d79ab6)
@@ -38,7 +38,7 @@ Entraremos a las dos carpetas que son *etc* y *bind*.
 * sudo su
 * cd /etc/bind
 
-Ahora debemos editar el archivo *named.conf.local* usando el comando *sudo nano* para poder modificar su configuración.
+Ahora debemos editar el archivo ***named.conf.local*** usando el comando *sudo nano* para poder modificar su configuración.
 
 ![image](https://github.com/user-attachments/assets/9fe24fe0-9731-423b-8a38-00fdac89f295)
 
@@ -62,7 +62,7 @@ zone "40.20.10.in-addr.arpa" in {
 ![image](https://github.com/user-attachments/assets/2f1bddc3-5f49-43ed-b2eb-d60e74a72861)
 
 
-Guardamos los cambios y salimos del editor. Luego, ejecutamos el comando *named-checkconf* en la terminal para verificar si la configuración del archivo *named.conf.local* es correcta:
+Guardamos los cambios y salimos del editor. Luego, ejecutamos el comando *named-checkconf* en la terminal para verificar si la configuración del archivo ***named.conf.local*** es correcta:
 * named-checkconf
 
 Este comando revisa la sintaxis y la configuración del archivo que hemos modificado. Si no muestra ningún mensaje, significa que todo está correcto. Sin embargo, si aparece algún texto de error, eso indica que hay un problema en el archivo y debes corregirlo.
@@ -79,7 +79,7 @@ Y luego comprobamos si se ha creado con el comando:
 ````
 ls -l
 ````
-Ahora tenemos que copiar dos archivos que son el db.127 y el db.local y cambiarle el nombre:
+Ahora tenemos que copiar dos archivos que son el *db.127* y el *db.local* y cambiarle el nombre:
 * cp db.127 zones/db.40.20.10🡪 es el nombre que le ponemos al archivo que hemos copiado a la carpeta zones
 
 * cp db.local zones/db.rbooks.com🡪 es el nombre que le ponemos al archivo que hemos copiado a la carpeta zones
