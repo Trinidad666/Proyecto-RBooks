@@ -20,7 +20,7 @@ Este conjunto de medidas asegura que el servidor MySQL esté protegido contra co
 
 ![image](https://github.com/user-attachments/assets/4bc7c712-87f7-42b2-aed1-e4c1084df38e)
 
-Le das a todo **y** (sí / yes).
+Le das a todo "**y**" (sí / yes).
 
 ![image](https://github.com/user-attachments/assets/22b69f20-b3b3-4dca-b6bc-4819e3e39ae7)
 
