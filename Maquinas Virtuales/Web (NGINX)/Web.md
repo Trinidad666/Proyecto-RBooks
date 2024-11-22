@@ -39,6 +39,7 @@ Para editar el archivo *index.html*, ingresamos al archivo utilizando el siguien
 ``
 sudo nano /var/www/rbooks.com/index.html
 ``
+
 ![image](https://github.com/user-attachments/assets/d33873e3-2374-4aa5-98c6-f14f0b4a27d9)
 
 Dentro del archivo pondremos el código html que mostraremos a continuación:
