@@ -1,0 +1,53 @@
+/* Estilos para el footer */
+footer {
+    background-color: #000; /* Fondo negro */
+    color: white; /* Texto blanco */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    flex-wrap: wrap;
+}
+
+.footer-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-container .logo img,
+.logos img {
+    height: 50px; /* Tamaño uniforme para el logo y los logotipos */
+}
+
+.footer-text {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+}
+
+.logos img {
+    margin-left: 10px; /* Espaciado entre los logotipos */
+}
+
+/* Estilo responsivo para dispositivos pequeños */
+@media (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logos {
+        margin-top: 10px;
+    }
+}
