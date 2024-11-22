@@ -172,8 +172,102 @@ index.php
 
 ![image](https://github.com/user-attachments/assets/e71f7651-fd45-4dfc-bf0b-a15ed7b34eb1)
 
+puertos 22
 
 ![image](https://github.com/user-attachments/assets/66830819-04a0-47f8-9e75-192eeb589939)
+
+cd /etc/nginx/sites-available/
+
+![image](https://github.com/user-attachments/assets/ac31f722-ac6d-48ac-883e-6288bde0ac58)
+
+![image](https://github.com/user-attachments/assets/a79b310b-9869-4edf-b40e-47565a4e52e7)
+
+sudo nginx -s reload
+
+![image](https://github.com/user-attachments/assets/d31fb98a-a034-4ea1-b2d1-8355b9311f90)
+
+ls -l ../sites-enabled/
+
+![image](https://github.com/user-attachments/assets/bd92b060-dab5-4b6b-9fa7-5ad054e946c3)
+
+![image](https://github.com/user-attachments/assets/48f2eb31-c025-4e6f-96c7-94c790cad16e)
+
+![image](https://github.com/user-attachments/assets/b3f1af21-c1f4-4dfb-bf5e-b43bb8bdc6b0)
+
+![image](https://github.com/user-attachments/assets/7307de12-aaab-4705-8813-bb36aeecd97e)
+
+![image](https://github.com/user-attachments/assets/c8517749-bb2b-4a51-9598-5be9cb6325bf)
+
+Se tiene que el PHP8.1
+
+![image](https://github.com/user-attachments/assets/dc7aa8ea-ed21-4c3d-98ac-192ea8572a80)
+
+Cambiar la versión php 7.4 a la versión 8.1
+
+![image](https://github.com/user-attachments/assets/f67a80cd-d815-4f6f-8568-84152bbccc02)
+
+![image](https://github.com/user-attachments/assets/d4957a90-22b8-4ba9-83a3-b35656e41806)
+
+![image](https://github.com/user-attachments/assets/b013bf94-452c-48be-b3e3-4cac1c94e98c)
+
+Funciona tiene el punky.com de la Alina
+
+![image](https://github.com/user-attachments/assets/b59ce5ed-bc83-44fb-bb24-0018170c863e)
+
+![image](https://github.com/user-attachments/assets/ac67eda4-b902-4291-a7b1-3c94d3588ec3)
+
+![image](https://github.com/user-attachments/assets/a53118b4-5622-465a-8944-6151a56c7169)
+
+![image](https://github.com/user-attachments/assets/10e912ec-1e00-47a2-b8b4-3548d69d72a3)
+
+![image](https://github.com/user-attachments/assets/820498be-28cb-4e81-8ffa-02225e9238e3)
+
+![image](https://github.com/user-attachments/assets/764c28d1-3146-4aa7-9a55-c7c2d237c725)
+
+![image](https://github.com/user-attachments/assets/e69d1b54-a35b-47ba-a05b-71606f918926)
+
+![image](https://github.com/user-attachments/assets/bf07d0f5-b365-4f4e-9d2c-a441b2987739)
+
+![image](https://github.com/user-attachments/assets/ac2990c9-6e19-4a5a-b3e8-f163c3ec79f7)
+
+![image](https://github.com/user-attachments/assets/b6f28676-ff8a-4ffb-9c2e-51e1a5bd6b6c)
+
+![image](https://github.com/user-attachments/assets/8e937844-1cb9-4af1-bb9b-cfe0b32eb957)
+
+Tienes que poner la ip del ordenador o de la máquina y luego poner los nombres hugo.com y marin.com
+
+![image](https://github.com/user-attachments/assets/c5845b7d-011f-42db-91c9-c9aa82a683dc)
+
+ipTable en el router y le pones la IP de la máquina virtual que son Web y DNS
+
+![image](https://github.com/user-attachments/assets/5ea419ae-7f64-4679-b65c-86f86e8a6bf8)
+
+Lo que hace este comando es eliminar el iptable que le hemos puesto:
+
+![image](https://github.com/user-attachments/assets/e916d51d-2379-48d3-b872-02491adc728e)
+
+![image](https://github.com/user-attachments/assets/75caa8a7-576f-4d6d-b2fd-d1b46b3ba37b)
+
+![image](https://github.com/user-attachments/assets/bf05f41b-af29-4fe9-b101-544426c2c73e)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
