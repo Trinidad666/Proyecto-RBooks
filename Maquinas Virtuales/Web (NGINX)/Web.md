@@ -118,23 +118,62 @@ Podemos ver que nuestra página web, que hemos creado en el archivo *index.html*
 ![image](https://github.com/user-attachments/assets/a8986efc-0ffd-49cd-9efc-b70bc53999a1)
 
 
+Para que el navegador nos redirija a la página web al escribir **rbooks.com** en lugar de la dirección IP **100.77.20.38**, debemos editar el archivo hosts. Este archivo es local y asigna nombres de dominio a direcciones IP, teniendo prioridad sobre los servidores DNS.
+
+En la imagen se muestra cómo y dónde se debe agregar la IP y el nombre de dominio.
+
+![image](https://github.com/user-attachments/assets/0b46bbb2-4c8a-486e-9c4f-51a50ea7e50a)
+
+Al ingresar el dominio **rbooks.com**, podemos ver que la página web se carga perfectamente.
+
+![image](https://github.com/user-attachments/assets/62e822d3-13b1-406f-9dbb-7cdd1d8c2339)
 
 
 
+## PHP
+
+![image](https://github.com/user-attachments/assets/3458fd78-5abd-4d31-91f5-01bfc273579b)
+
+![image](https://github.com/user-attachments/assets/4f3c6a4a-54f9-487a-8b26-de8469a0a70a)
+
+Ponemos todo lo que hay en azul
+
+![image](https://github.com/user-attachments/assets/176f656d-d292-4528-af8d-d99db8d41776)
+
+![image](https://github.com/user-attachments/assets/edf43ed2-2d2c-44e2-9fda-b8d6b1079d5a)
+
+![image](https://github.com/user-attachments/assets/5f7a5d4d-7080-4769-9193-419dc0a697bc)
+
+sudo nginx -t
+
+![image](https://github.com/user-attachments/assets/82dab784-c06a-4671-b09c-dacb24d99e4d)
+
+sudo nginx -s reload
+
+![image](https://github.com/user-attachments/assets/dd31d90a-9dd5-41e7-84af-6f89dccd6832)
+
+sudo system status nginx
+
+![image](https://github.com/user-attachments/assets/f2e0f1b4-2934-41be-90c9-c217f0d4033a)
+
+![image](https://github.com/user-attachments/assets/71833b7d-59c5-4008-988f-689a8ba56c59)
+
+cd /var/www/
+
+![image](https://github.com/user-attachments/assets/6c1c274d-ab7b-4c2e-9490-8ef0751143de)
+
+ls -l
+
+![image](https://github.com/user-attachments/assets/64241df8-ad64-492a-a855-0a36a973d6a2)
+
+index.php
+
+![image](https://github.com/user-attachments/assets/9aebc2c6-d874-48c3-95b9-8b0b5e033f72)
+
+![image](https://github.com/user-attachments/assets/e71f7651-fd45-4dfc-bf0b-a15ed7b34eb1)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/user-attachments/assets/66830819-04a0-47f8-9e75-192eeb589939)
 
 
 
