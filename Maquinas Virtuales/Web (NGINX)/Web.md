@@ -21,9 +21,123 @@ Para crear nuestra propia página web, debemos acceder a la carpeta **/var/www/*
 
 ![image](https://github.com/user-attachments/assets/1e27e412-b0d5-4fd7-aeba-097a80280ba5)
 
-Creamos una nueva carpeta llamada rbooks.com con el siguiente comando:
+Creamos una nueva carpeta llamada *rbooks.com* con el siguiente comando:
 ``
 sudo mkdir /var/www/rbooks.com
 ``
 ![image](https://github.com/user-attachments/assets/8f6439d1-7726-4f3d-a840-48d5cafd84ed)
 ![image](https://github.com/user-attachments/assets/67a1ad21-cbf8-496a-98eb-5f8246517646)
+
+Al crear la carpeta *rbooks.com*, generaremos un archivo HTML llamado *index.html* dentro de ella con el siguiente comando:
+``
+sudo touch /var/www/rbooks.com/index.html
+``
+![image](https://github.com/user-attachments/assets/68e4d037-79c0-4c9a-8604-bb7198a6ab40)
+![image](https://github.com/user-attachments/assets/1fd74f37-a2f3-4cb9-97a6-f9b20a3726d2)
+
+Para editar el archivo *index.html*, ingresamos al archivo utilizando el siguiente comando:
+``
+sudo nano /var/www/rbooks.com/index.html
+``
+![image](https://github.com/user-attachments/assets/d33873e3-2374-4aa5-98c6-f14f0b4a27d9)
+
+Dentro del archivo pondremos el código html que mostraremos a continuación:
+
+![image](https://github.com/user-attachments/assets/ee073725-01db-41f0-b498-3dc587f873b4)
+
+Al guardar los cambios nos iremos a la dirección **/etc/nginx/sites-available/**
+
+![image](https://github.com/user-attachments/assets/c80443e4-579c-4531-ab78-4702d3accd92)
+
+Copia el archivo llamado "*default*" (que probablemente sea una configuración predeterminada de Nginx) y crea una copia con el nombre "*rbooks.com.conf*". Este proceso es común al configurar un nuevo servidor virtual en Nginx, ya que permite personalizar la configuración para un dominio o proyecto específico.
+
+  * **sudo:** Ejecuta el comando con privilegios de superusuario, necesarios cuando se trabaja en directorios protegidos, como /etc/nginx/sites-available.
+  * **cp:** Es el comando utilizado para copiar archivos o directorios.
+  * **default:** Es el archivo de origen que se desea copiar.
+  * **rbooks.com.conf:** Es el nombre del archivo de destino, el cual será el nuevo archivo copiado.
+
+![image](https://github.com/user-attachments/assets/facdaa8c-403a-47eb-9e7f-11d51a2ceec6)
+
+Entramos al archivo **rbooks.com.conf** y dentro, colocamos todo como comentario utilizando el "#".
+
+Esto convierte todo el contenido del archivo en comentarios, lo que significa que Nginx no lo interpretará como configuración activa.
+
+![image](https://github.com/user-attachments/assets/dddee151-0123-4273-99aa-7e5320c49356)
+![image](https://github.com/user-attachments/assets/4a438956-8639-4b85-bb8c-ad71949b59fa)
+
+Quitamos el “#” donde mostramos en la imagen.
+
+![image](https://github.com/user-attachments/assets/2599da77-d487-4e6d-9ced-a9d9e384c394)
+
+Tendremos que quitar el dominio example.com a *rbooks.com* porque este código configura un servidor virtual en Nginx para servir el dominio **rbooks.com** desde el directorio **/var/www/rbooks.com** y manejar solicitudes con archivos estáticos, devolviendo un **error 404** si no se encuentran.
+
+![image](https://github.com/user-attachments/assets/eb97e3e7-efa6-4003-b062-557cd042b093)
+
+Nos dirigiremos a la carpeta **sites-enabled** con el siguiente comando:
+``
+cd ../sites-enabled/
+``
+El directorio **/etc/nginx/sites-enabled** en un servidor Nginx contiene enlaces simbólicos a los archivos de configuración de servidores virtuales ubicados en **/etc/nginx/sites-available**. Este directorio determina qué configuraciones de servidores virtuales están activas y se cargan cuando Nginx se reinicia o recarga.
+
+A continuación, ejecutaremos el siguiente comando para crear un enlace simbólico:
+``
+sudo ln -s /etc/nginx/sites-available/rbooks.com.conf rbooks.com.conf
+``
+  * **sudo:** Ejecuta el comando con privilegios de superusuario, necesarios para modificar configuraciones del sistema.
+  * **ln -s:** Crea un enlace simbólico (también conocido como "symlink"), que es un archivo que apunta a otro archivo o directorio en el sistema.
+  * **/etc/nginx/sites-available/rbooks.com.conf:** Es la ubicación del archivo de configuración de Nginx para el sitio rbooks.com, en el directorio donde generalmente se almacenan las configuraciones disponibles, pero no necesariamente activas.
+  * **rbooks.com.conf:** Es el nombre del enlace simbólico que se creará. Este enlace estará ubicado en el directorio sites-enabled, activando la configuración de rbooks.com.conf desde sites-available.
+
+Este comando crea un enlace simbólico en sites-enabled para activar la configuración del sitio **rbooks.com.conf**, que está ubicada en sites-available en Nginx.
+
+![image](https://github.com/user-attachments/assets/c38e2840-6358-4692-a74a-c6c16ea629a8)
+
+Si ejecutamos el comando **ls -l**, podemos observar que el enlace simbólico se ha creado correctamente.
+
+![image](https://github.com/user-attachments/assets/561cbd4d-d6e9-4c06-8053-080601576af5)
+
+Ejecutaremos el comando **sudo nginx -s reload** para recargar la configuración de Nginx sin detener el servicio, aplicando así los cambios realizados en sus archivos de configuración.
+
+![image](https://github.com/user-attachments/assets/8b6a1b77-f362-4545-bd45-3a836a371b46)
+
+Luego, utilizaremos el comando **sudo nginx -t**, que verifica la sintaxis de los archivos de configuración de Nginx para asegurarse de que no haya errores antes de reiniciar o recargar el servicio.
+
+![image](https://github.com/user-attachments/assets/efc147c2-d473-49c1-9c08-f3ba23166dc5)
+![image](https://github.com/user-attachments/assets/706d541e-d033-455a-88ad-91de47b7224e)
+![image](https://github.com/user-attachments/assets/1a7f0bd7-4441-4115-937d-85882dbf0f0a)
+
+Ejecutaremos el comando **sudo systemctl restart nginx**, que reinicia el servicio de Nginx, deteniéndolo y luego iniciándolo nuevamente. Esto aplica cualquier cambio en la configuración o resuelve posibles problemas.
+
+El comando **sudo systemctl status nginx** muestra el estado actual del servicio Nginx, indicando si está activo (en ejecución), si ha fallado, y proporcionando detalles sobre el proceso, como el tiempo de actividad y los posibles errores registrados.
+
+![image](https://github.com/user-attachments/assets/8e85cca3-d444-4fa1-8111-4e0110838113)
+
+Podemos ver que nuestra página web, que hemos creado en el archivo *index.html*0, funciona a la perfección.
+
+![image](https://github.com/user-attachments/assets/a8986efc-0ffd-49cd-9efc-b70bc53999a1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
