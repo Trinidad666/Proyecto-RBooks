@@ -1,4 +1,4 @@
-## Introducción
+# Introducción
 Somos una empresa fundada por Hugo Marín y Víctor Almansa que hemos decidido crear una aplicación web para el entretenimiento en la lectura de libros, cómics y audiolibros.
 
 Nuestra app consiste en proporcionar a los clientes una forma más cómoda de leer y encontrar los tipos de lectura que desean los clientes, también puedan acceder a libros o cómics que ya no estén disponibles en librerías o tiendas de cómics. Si nuestros clientes registrados son escritores, pueden publicar sus libros o biografías y negociar con nosotros un precio para vender sus productos. 
@@ -6,12 +6,12 @@ Nuestra app consiste en proporcionar a los clientes una forma más cómoda de le
 Parte de nuestro producto incluye cómics de marcas conocidas como MARVEL, DC o Astiberri(editorial de cómics más importante de España), así como otras marcas más o menos conocidas con las que hemos establecido acuerdos para la venta de sus productos. Tambien contamos con Libros conocidos como los del Señor de los Anillos, Harry Potter, la Guerra de los mundos, etc
 
 
-## Diseño de nuestra aplicación
+# Diseño de nuestra aplicación
 Como podréis ver nuestro diseño de aplicación muestra las pestañas de nuestros productos: libros, comics y audio libros. También contamos con una sección de estantería donde expondremos todos los géneros de libros y cómics disponibles. Además contamos con otra pestaña donde pueden añadir libros favoritos y subir libros o cómics, pero es necesario registrarse para poder añadir contenido a la bibliotec
 
 Aquí os mostraremos parte del diseño:
 
-### Índice
+## Índice
 Como podéis ver en nuestra página de inicio, el nombre de la empresa se ubicará en el centro, acompañada de imágenes de fondo que se desplazarán hacia la izquierda cada cierto tiempo. 
 
 Más abajo, presentamos nuestros mejores productos de libros y cómics, con un breve texto de descripción sobre el producto que estamos vendiendo.
@@ -23,16 +23,16 @@ Más abajo, presentamos nuestros mejores productos de libros y cómics, con un b
 
 
 
-### Libros, Cómics y Audiolibros
+## Libros, Cómics y Audiolibros
 En las secciones de libros, cómics y audiolibros, contaremos con una lista de nuestros productos, acompañada de un buscador ubicado en la parte superior derecha para facilitar la búsqueda rápida del artículo deseado. Además, cada producto incluirá información detallada, como una sinopsis, valoraciones y opciones de compra.
 
 ![image](https://github.com/user-attachments/assets/5843927e-bd5c-4371-bea1-a17e168c8c1a)
 
-### Estantería
+## Estantería
 En la estantería tendremos una sección donde tendremos todos los géneros que hay de lectura y a la derecha tendremos imágenes de libros con un pequeño texto que indique los géneros que tenemos de lectura. Una vez que hemos seleccionado una de las imágenes nos llevará a otra pestaña con un listado de libros, cómics o audiolibros del mismo género.
 ![image](https://github.com/user-attachments/assets/98c872c3-0395-461c-a091-3221a877ee6e)
 
-### Mi Biblioteca
+## Mi Biblioteca
 Como dice su nombre Mi Biblioteca es una página donde tendremos almacenados los productos de lectura que nos ha gustado más, pero solo será para aquellos que estén registrados en nuestra página web.
 ![image](https://github.com/user-attachments/assets/dfec9607-3572-4459-9888-25231dcfbb84)
 
@@ -59,9 +59,9 @@ Hemos escogido este logo porque son las iniciales de nuestra empresa "RBooks" y 
 
 
 
-## Funcionalidades 
+# Funcionalidades 
 
-### Funcionalidades de Registro 
+## Funcionalidades de Registro 
 Login (hugo):
 - Implementar un segundo nivel de autenticación para aumentar la seguridad del login, como códigos de verificación vía SMS o correo.
 
@@ -74,9 +74,9 @@ Password (hugo)
 - Mostrar un medidor de la fuerza de la contraseña en tiempo real para fomentar contraseñas más seguras.
 
 
-### Funcionalidad de users permisos: (victor/hugo)
+## Funcionalidad de users permisos: (victor/hugo)
 
-**<ins>Funcionalidades para Administradores</ins>**
+###**<ins>Funcionalidades para Administradores</ins>**
 
 Gestión de Contenido:
 - Añadir, editar o eliminar libros y descripciones.
@@ -104,7 +104,7 @@ Sistema de Notificaciones:
 - Enviar notificaciones sobre nuevos libros, promociones o eventos.
 
 
-**<ins>Funcionalidades para Clientes</ins>**
+###**<ins>Funcionalidades para Clientes</ins>**
 
 Exploración de Libros:
 - Navegar por categorías, géneros y autores.
