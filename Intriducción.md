@@ -76,7 +76,7 @@ Password (hugo)
 
 ## Funcionalidad de users permisos: (victor/hugo)
 
-###**<ins>Funcionalidades para Administradores</ins>**
+### **<ins>Funcionalidades para Administradores</ins>**
 
 Gestión de Contenido:
 - Añadir, editar o eliminar libros y descripciones.
@@ -104,7 +104,7 @@ Sistema de Notificaciones:
 - Enviar notificaciones sobre nuevos libros, promociones o eventos.
 
 
-###**<ins>Funcionalidades para Clientes</ins>**
+### **<ins>Funcionalidades para Clientes</ins>**
 
 Exploración de Libros:
 - Navegar por categorías, géneros y autores.
