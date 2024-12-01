@@ -41,13 +41,7 @@ El código de comics.php genera una página dedicada a los cómics, donde se con
 
 
 ## **estanteria.php**
-
-
-
-_____________________________________________
-
-
-
+El archivo estanteria.php genera una página web que incluye una barra lateral con enlaces a diversos géneros literarios y un botón para abrir o cerrar esta barra. En el área principal se muestran los productos (libros, cómics, etc.) correspondientes al género seleccionado. Además, cuenta con un encabezado que incluye el menú de navegación y un pie de página. Utiliza JavaScript para cargar dinámicamente los productos según el género elegido, realizando solicitudes a un archivo productos.php mediante fetch para obtener los datos.
 
 
 ## **in-sign.php**
