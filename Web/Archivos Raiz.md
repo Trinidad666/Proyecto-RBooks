@@ -35,6 +35,8 @@ Aquí están los puntos clave del script:
 ## **biblioteca.php**
 El código muestra una página web titulada "Biblioteca del Usuario", donde se consultan y presentan en tarjetas los productos (libros, cómics, etc.) del usuario autenticado. Si el usuario no tiene productos en su biblioteca, se muestra un mensaje de error indicando que la biblioteca está vacía.
 
+## **(No hemos logrado que los productos se guarden en la biblioteca del usuario.)** 
+
 
 ## **comics.php**
 El código de comics.php genera una página dedicada a los cómics, donde se consultan los productos de tipo cómic almacenados en una base de datos y se presentan en tarjetas interactivas. Al hacer clic en una de las tarjetas, el usuario es redirigido a una página con más detalles sobre el cómic seleccionado.
@@ -42,6 +44,8 @@ El código de comics.php genera una página dedicada a los cómics, donde se con
 
 ## **estanteria.php**
 El archivo estanteria.php genera una página web que incluye una barra lateral con enlaces a diversos géneros literarios y un botón para abrir o cerrar esta barra. En el área principal se muestran los productos (libros, cómics, etc.) correspondientes al género seleccionado. Además, cuenta con un encabezado que incluye el menú de navegación y un pie de página. Utiliza JavaScript para cargar dinámicamente los productos según el género elegido, realizando solicitudes a un archivo productos.php mediante fetch para obtener los datos.
+
+## **(En la lista de la estantería, al seleccionar de un género no está funcionando correctamente.)**
 
 
 ## **in-sign.php**
