@@ -12,24 +12,24 @@ Aquí están los puntos clave del script:
 
 1. Estructura de la base de datos:
 
-  * Clientes: Almacena información sobre los usuarios que compran productos.
-  * Productos: Representa los productos (libros, cómics, audiolibros), con campos como título, género, precio, portada, sinopsis, fecha de publicación, entre otros.
-  * Ventas: Registra las ventas realizadas, asociando cada venta con un cliente.
-  * Pago: Almacena los pagos realizados para las ventas.
-  * Garantías: Contiene información sobre las garantías disponibles para los productos vendidos.
-  * Autores: Almacena datos de los autores de los productos.
-  * Editoriales: Información sobre las editoriales que publican los productos.
-  * Mi Biblioteca: Asocia a los clientes con los productos que han adquirido y almacenado.
-  * Producto_Cliente: Relaciona los productos con los clientes.
+   * Clientes: Almacena información sobre los usuarios que compran productos.
+   * Productos: Representa los productos (libros, cómics, audiolibros), con campos como título, género, precio, portada, sinopsis, fecha de publicación, entre otros.
+   * Ventas: Registra las ventas realizadas, asociando cada venta con un cliente.
+   * Pago: Almacena los pagos realizados para las ventas.
+   * Garantías: Contiene información sobre las garantías disponibles para los productos vendidos.
+   * Autores: Almacena datos de los autores de los productos.
+   * Editoriales: Información sobre las editoriales que publican los productos.
+   * Mi Biblioteca: Asocia a los clientes con los productos que han adquirido y almacenado.
+   * Producto_Cliente: Relaciona los productos con los clientes.
 
 2. Relaciones entre las tablas:
-  * Las tablas están normalizadas y utilizan claves foráneas (FOREIGN KEY) para establecer relaciones entre ellas, como las ventas que se vinculan con los clientes y los productos vendidos, así como las garantías asociadas a los productos.
+   * Las tablas están normalizadas y utilizan claves foráneas (FOREIGN KEY) para establecer relaciones entre ellas, como las ventas que se vinculan con los clientes y los productos vendidos, así como las garantías asociadas a los productos.
 
 3. Población de las tablas:
-  * El script incluye instrucciones de inserción de datos (INSERT INTO) para tablas como Cliente, Autor, Producto, Ventas, Pago, Garantía, etc., permitiendo poblar la base de datos con datos de ejemplo.
+   * El script incluye instrucciones de inserción de datos (INSERT INTO) para tablas como Cliente, Autor, Producto, Ventas, Pago, Garantía, etc., permitiendo poblar la base de datos con datos de ejemplo.
 
-5. Consultas y configuraciones adicionales:
-  * Se desactivan y restauran temporalmente las comprobaciones de claves foráneas (FOREIGN_KEY_CHECKS) y las verificaciones de unicidad (UNIQUE_CHECKS), lo que puede resultar útil para evitar problemas al insertar datos que dependen de otras tablas.
+4. Consultas y configuraciones adicionales:
+   * Se desactivan y restauran temporalmente las comprobaciones de claves foráneas (FOREIGN_KEY_CHECKS) y las verificaciones de unicidad (UNIQUE_CHECKS), lo que puede resultar útil para evitar problemas al insertar datos que dependen de otras tablas.
 
 
 ## **biblioteca.php**
