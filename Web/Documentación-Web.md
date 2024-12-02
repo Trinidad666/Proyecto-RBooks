@@ -1,6 +1,6 @@
 # **Documento de RBooks**
 
-Aquí os hablaremos sobre la estructura de archivos de RBooks. Hemos utilizado archivos PHP, CSS y SQL, RBooks ofrece una experiencia interactiva y accesible, permitiendo a los usuarios explorar distintas categorías de productos, administrar su biblioteca personal y realizar compras de manera sencilla. A continuación, se detallan los archivos más importantes del sistema y su función dentro del funcionamiento general del sitio.
+Aquí os hablaremos sobre la estructura de archivos de RBooks. Hemos utilizado archivos PHP, CSS y SQL. RBooks ofrece una experiencia interactiva y accesible, permitiendo a los usuarios explorar distintas categorías de productos, administrar su biblioteca personal y realizar compras de manera sencilla. A continuación, se detallan los archivos más importantes del sistema y su función dentro del funcionamiento general del sitio.
 
 ## Archivos Raíz
 ### audio_libros.php
@@ -124,5 +124,4 @@ El archivo sign-style.css crea una interfaz interactiva para el inicio de sesió
 
 
 ## RSC
-En esta carpeta es donde almacenamos todas las imágenes para la página Web de RBooks.
-
+En esta carpeta es donde almacenamos todas las imágenes para la página Web de RBooks. Estas imágenes incluyen las portadas de libros, cómics y audiolibros, así como iconos, logotipos y otros elementos gráficos que contribuyen al diseño y la estética del sitio. La organización de las imágenes en esta carpeta sigue una estructura lógica para facilitar su acceso y gestión.
