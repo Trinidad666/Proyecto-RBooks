@@ -150,7 +150,7 @@ Acceso a Eventos:
 
 
 
-# **Documento de RBooks**
+# **Explicación de los codigos de la Web de RBooks**
 
 Aquí os hablaremos sobre la estructura de archivos de RBooks. Hemos utilizado archivos PHP, CSS y SQL. RBooks ofrece una experiencia interactiva y accesible, permitiendo a los usuarios explorar distintas categorías de productos, administrar su biblioteca personal y realizar compras de manera sencilla. A continuación, se detallan los archivos más importantes del sistema y su función dentro del funcionamiento general del sitio.
 
